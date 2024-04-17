@@ -3,24 +3,24 @@
   
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>404 Page not found | Stork&#39;Studios</title>
+  <title>Hello | StorkStudios</title>
 
-  <meta name="title" content="404 Page not found | Stork&#39;Studios">
+  <meta name="title" content="Hello | StorkStudios">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <base href="http://localhost:1313/">
 
-  <meta name="description" content="Official Stork&#39;Studios website">
+  <meta name="description" content="Official StorkStudios website">
 
-  <meta name="author" content="Stork&#39;Studios">
+  <meta name="author" content="StorkStudios">
 
   
     
-  <meta property="og:title" content="404 Page not found | Stork&#39;Studios">
+  <meta property="og:title" content="Hello | StorkStudios">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:1313/404.html">
+  <meta property="og:url" content="http://localhost:1313/blog/test/">
   
         
         <meta property="og:image" content="http://localhost:1313/opengraph.png">
@@ -29,15 +29,15 @@
   
         <link rel="icon" type="image/png" href="http://localhost:1313/favicon.png">
 
-  <meta property="og:description" content="Official Stork&#39;Studios website">
+  <meta property="og:description" content="Official StorkStudios website">
 
   
 
-  <link rel="canonical" href="http://localhost:1313/404.html">
+  <link rel="canonical" href="http://localhost:1313/blog/test/">
   
   
 
-  <link rel="stylesheet" href="http://localhost:1313/style.dfa6a657ae994e026ae86cc065bbc01b5565e0c0c22a07bd84502c847b49d419.css">
+  <link rel="stylesheet" href="http://localhost:1313/style.d1a9b7c4247555ec5b09a91156f4e8d739661128f9e8730e428228b3d9a7bf73.css">
 
   
 
@@ -140,37 +140,28 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 </section>
 
     <main>
-      <div class="row full center-xs middle-xs">
-        <div class="col-xs-12">
-            <h1>404: Not Found</h1>
-            <p>Sorry, the requested page does not exist.</p>
-            <div style="transform:rotate(-180deg);text-align:center"><p id="noChoiceFound">The 🍰 is a lie!</p></div>
-            <div id="foundChoices" hidden>We can offer you the following similar page(s):</div>
-            <ul id="choices" hidden><li class="choice">[Blog]
-                    <a href="http://localhost:1313/blog/">🔗 Blogs</a></li><li class="choice">[Blog]
-                    <a href="http://localhost:1313/blog/blog1/">🔗 So you want to have 5k active bullets at once...</a></li><li class="choice">
-                    <a href="http://localhost:1313/">🔗 Stork&#39;Studios</a></li><li class="choice">
-                    <a href="http://localhost:1313/about/">🔗 About</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/bullet-waste/">🔗 Bullet Waste</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/figa-legend/">🔗 FIGA Legend</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/">🔗 Galleries</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/mediator/">🔗 Mediator: Back to the roots</a></li>
-                    </ul>
-            <script type="application/json" id="jsonContent">
-            [
-                
-                        "blog Blogs  http://localhost:1313/blog/",
-                        "blog So you want to have 5k active bullets at once...  http://localhost:1313/blog/blog1/",
-                        " Stork'Studios  http://localhost:1313/",
-                        " About  http://localhost:1313/about/",
-                        "gallery Bullet Waste  http://localhost:1313/gallery/bullet-waste/",
-                        "gallery FIGA Legend  http://localhost:1313/gallery/figa-legend/",
-                        "gallery Galleries  http://localhost:1313/gallery/",
-                        "gallery Mediator: Back to the roots  http://localhost:1313/gallery/mediator/"
-            ]
-            </script>
-        </div>
-      </div>
+
+      <section class="container">
+        <section class="content">
+          <h1> Hello </h1>
+
+            <div class="sub-header">
+              January 1, 0001 · One minute read
+            </div>
+
+          <article class="entry-content">
+            <p>Hey!</p>
+
+          </article>
+
+          <div class="pagination">
+            
+            
+          </div>
+        </section>
+        <br>
+        
+      </section>
 
     </main>
     <footer>
@@ -368,25 +359,4 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 
 
   </body>
-  <script>
-      const loc = window.location.pathname;
-      const seg = loc.substring(loc.lastIndexOf('/') + 1).toUpperCase();
-      if (seg.length > 1) {
-          const els = document.getElementsByClassName("choice");
-          const txt = JSON.parse(document.getElementById('jsonContent').innerHTML);
-          var cnt = 0;
-          for (var i = 0; i < els.length; i++) {
-              if (txt[i].toUpperCase().includes(seg)) {
-                  cnt++;
-              } else {
-                  els[i].style.display = "none";
-              }
-          }
-          if (cnt > 0) {
-              document.getElementById('noChoiceFound').setAttribute("hidden", true);
-              document.getElementById('foundChoices').removeAttribute("hidden");
-              document.getElementById('choices').removeAttribute("hidden");
-          }
-      }
-  </script>
 </html>

@@ -3,9 +3,9 @@
   
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>404 Page not found | Stork&#39;Studios</title>
+  <title>Blogs | Stork&#39;Studios</title>
 
-  <meta name="title" content="404 Page not found | Stork&#39;Studios">
+  <meta name="title" content="Blogs | Stork&#39;Studios">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,9 @@
 
   
     
-  <meta property="og:title" content="404 Page not found | Stork&#39;Studios">
+  <meta property="og:title" content="Blogs | Stork&#39;Studios">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:1313/404.html">
+  <meta property="og:url" content="http://localhost:1313/blog/">
   
         
         <meta property="og:image" content="http://localhost:1313/opengraph.png">
@@ -33,9 +33,9 @@
 
   
 
-  <link rel="canonical" href="http://localhost:1313/404.html">
+  <link rel="canonical" href="http://localhost:1313/blog/">
   
-  
+  <link href="http://localhost:1313/blog/index.xml" rel="alternate" type="application/rss+xml" title="Stork&#39;Studios">
 
   <link rel="stylesheet" href="http://localhost:1313/style.dfa6a657ae994e026ae86cc065bbc01b5565e0c0c22a07bd84502c847b49d419.css">
 
@@ -140,37 +140,25 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 </section>
 
     <main>
-      <div class="row full center-xs middle-xs">
-        <div class="col-xs-12">
-            <h1>404: Not Found</h1>
-            <p>Sorry, the requested page does not exist.</p>
-            <div style="transform:rotate(-180deg);text-align:center"><p id="noChoiceFound">The 🍰 is a lie!</p></div>
-            <div id="foundChoices" hidden>We can offer you the following similar page(s):</div>
-            <ul id="choices" hidden><li class="choice">[Blog]
-                    <a href="http://localhost:1313/blog/">🔗 Blogs</a></li><li class="choice">[Blog]
-                    <a href="http://localhost:1313/blog/blog1/">🔗 So you want to have 5k active bullets at once...</a></li><li class="choice">
-                    <a href="http://localhost:1313/">🔗 Stork&#39;Studios</a></li><li class="choice">
-                    <a href="http://localhost:1313/about/">🔗 About</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/bullet-waste/">🔗 Bullet Waste</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/figa-legend/">🔗 FIGA Legend</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/">🔗 Galleries</a></li><li class="choice">[Gallery]
-                    <a href="http://localhost:1313/gallery/mediator/">🔗 Mediator: Back to the roots</a></li>
-                    </ul>
-            <script type="application/json" id="jsonContent">
-            [
-                
-                        "blog Blogs  http://localhost:1313/blog/",
-                        "blog So you want to have 5k active bullets at once...  http://localhost:1313/blog/blog1/",
-                        " Stork'Studios  http://localhost:1313/",
-                        " About  http://localhost:1313/about/",
-                        "gallery Bullet Waste  http://localhost:1313/gallery/bullet-waste/",
-                        "gallery FIGA Legend  http://localhost:1313/gallery/figa-legend/",
-                        "gallery Galleries  http://localhost:1313/gallery/",
-                        "gallery Mediator: Back to the roots  http://localhost:1313/gallery/mediator/"
-            ]
-            </script>
+      <section class="blog" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12"><h1>Blog</h1></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 posts-list">
+              
+                <article>
+                  <h2><a href="http://localhost:1313/blog/blog1/">So you want to have 5k active bullets at once...</a></h2>
+                  <div class=sub-header>
+                    April 12, 2024 · 8 minutes read
+                  </div>
+                </article>
+              
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
     </main>
     <footer>
@@ -368,25 +356,4 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 
 
   </body>
-  <script>
-      const loc = window.location.pathname;
-      const seg = loc.substring(loc.lastIndexOf('/') + 1).toUpperCase();
-      if (seg.length > 1) {
-          const els = document.getElementsByClassName("choice");
-          const txt = JSON.parse(document.getElementById('jsonContent').innerHTML);
-          var cnt = 0;
-          for (var i = 0; i < els.length; i++) {
-              if (txt[i].toUpperCase().includes(seg)) {
-                  cnt++;
-              } else {
-                  els[i].style.display = "none";
-              }
-          }
-          if (cnt > 0) {
-              document.getElementById('noChoiceFound').setAttribute("hidden", true);
-              document.getElementById('foundChoices').removeAttribute("hidden");
-              document.getElementById('choices').removeAttribute("hidden");
-          }
-      }
-  </script>
 </html>

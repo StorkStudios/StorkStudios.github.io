@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Stork&#39;Studios</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 20:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So you want to have 5k active bullets at once...</title>
+      <link>http://localhost:1313/blog/blog1/</link>
+      <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/blog1/</guid>
+      <description>Why As you may know Bullet Waste is a first-person bullet-hell game, which means spawning a lot of bullets at runtime. Furthermore, a game designer needs to be able to define complicated attacks with ease. This task was assigned to me and I think I&amp;rsquo;ve come up with a pretty interesting solution.&#xA;But how to tackle this This problem (as many others) consists of many smaller ones. But for the sake of this article lets focus on the main two:</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 05 Apr 2024 22:31:31 +0200</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>We are Stork&amp;rsquo;Studios, a small team of young developers who wants to create special and amazing games. Currently we&amp;rsquo;re focusing on our main project: Bullet Waste, a combination of first person slasher and bullet hell. We also love to participate in game jams and share our creations with others.</description>
+    </item>
+    <item>
+      <title>Bullet Waste</title>
+      <link>http://localhost:1313/gallery/bullet-waste/</link>
+      <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
+      <guid>http://localhost:1313/gallery/bullet-waste/</guid>
+      <description>Combination of a first person slasher and a bullet hell, where you play as a mutated assasin with very high mobility.</description>
+    </item>
+    <item>
+      <title>FIGA Legend</title>
+      <link>http://localhost:1313/gallery/figa-legend/</link>
+      <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
+      <guid>http://localhost:1313/gallery/figa-legend/</guid>
+      <description>Quick and simple fighting game for two, where characters are running automatically and players only control their combat actions, like punching, jumping or sliding.</description>
+    </item>
+    <item>
+      <title>Mediator: Back to the roots</title>
+      <link>http://localhost:1313/gallery/mediator/</link>
+      <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
+      <guid>http://localhost:1313/gallery/mediator/</guid>
+      <description>Open world RPG created in 48h, focused on our favourite quests in that kind of games: gathering number of random items for NPCs.</description>
+    </item>
   </channel>
 </rss>

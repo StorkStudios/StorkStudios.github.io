@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Stork&#39;Studios</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blogs on Stork&#39;Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Apr 2024 20:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So you want to have 5k active bullets at once...</title>
+      <link>http://localhost:1313/blog/blog1/</link>
+      <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/blog1/</guid>
+      <description>Why As you may know Bullet Waste is a first-person bullet-hell game, which means spawning a lot of bullets at runtime. Furthermore, a game designer needs to be able to define complicated attacks with ease. This task was assigned to me and I think I&amp;rsquo;ve come up with a pretty interesting solution.&#xA;But how to tackle this This problem (as many others) consists of many smaller ones. But for the sake of this article lets focus on the main two:</description>
+    </item>
+  </channel>
+</rss>
