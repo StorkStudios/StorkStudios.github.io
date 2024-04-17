@@ -2,7 +2,7 @@
 <html lang="en-us">
   
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>So you want to have 5k active bullets at once... | Stork&#39;Studios</title>
 
   <meta name="title" content="So you want to have 5k active bullets at once... | Stork&#39;Studios">
@@ -10,7 +10,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <base href="http://localhost:1313/">
+  <base href="https://storkstudios.github.io/">
 
   <meta name="description" content="Official Stork&#39;Studios website">
 
@@ -20,28 +20,28 @@
     
   <meta property="og:title" content="So you want to have 5k active bullets at once... | Stork&#39;Studios">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:1313/blog/blog1/">
+  <meta property="og:url" content="https://storkstudios.github.io/blog/blog1/">
   
         
-        <meta property="og:image" content="http://localhost:1313/opengraph.png">
+        <meta property="og:image" content="https://storkstudios.github.io/opengraph.png">
         <meta property="og:image:width" content="1280">
         <meta property="og:image:height" content="640">
   
-        <link rel="icon" type="image/png" href="http://localhost:1313/favicon.png">
+        <link rel="icon" type="image/png" href="https://storkstudios.github.io/favicon.png">
 
   <meta property="og:description" content="Official Stork&#39;Studios website">
 
   
 
-  <link rel="canonical" href="http://localhost:1313/blog/blog1/">
+  <link rel="canonical" href="https://storkstudios.github.io/blog/blog1/">
   
   
 
-  <link rel="stylesheet" href="http://localhost:1313/style.dfa6a657ae994e026ae86cc065bbc01b5565e0c0c22a07bd84502c847b49d419.css">
+  <link rel="stylesheet" href="https://storkstudios.github.io/style.dfa6a657ae994e026ae86cc065bbc01b5565e0c0c22a07bd84502c847b49d419.css">
 
   
 
-  <script src="http://localhost:1313/lazyimg/lazysizes/lazysizes.min.js" async></script>
+  <script src="https://storkstudios.github.io/lazyimg/lazysizes/lazysizes.min.js" async></script>
 
 
   
@@ -92,13 +92,13 @@
 
 
 <picture>
-  <source type="image/webp" height="95" width="96" data-sizes="auto" data-srcset="http://localhost:1313/logo_small-66x.webp 66w,
-http://localhost:1313/logo_small-96x.webp 96w">
+  <source type="image/webp" height="95" width="96" data-sizes="auto" data-srcset="https://storkstudios.github.io/logo_small-66x.webp 66w,
+https://storkstudios.github.io/logo_small-96x.webp 96w">
     
 
 
-<img data-src="http://localhost:1313/logo_small-96x.png" class=" lazyload" height="95" width="96" data-sizes="auto" data-srcset="http://localhost:1313/logo_small-66x.png 66w,
-http://localhost:1313/logo_small-96x.png 96w" alt="Home">
+<img data-src="https://storkstudios.github.io/logo_small-96x.png" class=" lazyload" height="95" width="96" data-sizes="auto" data-srcset="https://storkstudios.github.io/logo_small-66x.png 66w,
+https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 </picture>
     
 
@@ -159,15 +159,15 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 <li>How to make it efficient</li>
 </ul>
 <h1 id="understanding-the-concept">Understanding the concept</h1>
-<p>When i was tasked with this I asked what is the relatively complicated attack that should be possible to create and I was given this image:</p>
+<p>When I was tasked with this I asked what is the relatively complicated attack that should be possible to create and I was given this image:</p>
 <p><img src="blog1/atak_1.png" alt="A sample attack"></p>
 <p>The image itself doesn&rsquo;t really say that much about how would this attack behave over time but it was very helpful regardless. You can imagine this as a hierarchy tree where each node is responsible for one simple movement like this:</p>
 <p><img src="blog1/atak_2.png" alt="Attack tree simple"></p>
 <p>If we were to follow each possible path from the enemy to the bullet we would recreate the attack from above.</p>
 <h1 id="okay-so-how-to-represent-this">Okay, so how to represent this</h1>
-<p>The rotation element in the tree above (and later added scale element) exist as a single node in its layer.  This allows for the configuration of such element to be a simple Scriptable Object. The tricky part starts with the linear movement elements as in a normal use case there would be a lot more than 6 directions that we&rsquo;d want to define. Also, the sheer amount of Scriptable Objects were this to be stored in the separate files would be unmanageable. So I made the decision to combine directions in a single layer into a list in a single Scriptable Object. This also enabled me to write a simple importer script to parse and import a large number of directions stored in a mesh asset where each vertex position is a local starting position offset and its normal is the direction where it is moving. Lastly, all of the element configurations are stored in a single attack configuration in a simple list that represents the layers shown in the picture above.</p>
+<p>The rotation element in the tree above (and later added scale element) exist as a single node in its layer.  This allows for the configuration of such element to be a simple Scriptable Object. The tricky part starts with the linear movement elements as in a normal use case there would be a lot more than 6 directions that we&rsquo;d want to define. Also, the sheer amount of Scriptable Objects were them to be stored in separate files would be unmanageable. So I made the decision to combine directions in a single layer into a list in a single Scriptable Object. This allowed me to write a simple script to parse and import a large number of directions stored in a mesh asset. Starting position and move direction are stored in vertex position and vertex normal respectively. Lastly, all of the element configurations are stored in a single attack configuration in a simple list that represents the layers shown in the picture above.</p>
 <h1 id="we-have-the-instruction-so-lets-build-it">We have the instruction so let&rsquo;s build it</h1>
-<p>An attack configuration tells us everything we need to know to create it and the algorithm for doing so is pretty simple.</p>
+<p>An attack configuration tells us everything we need to know to create an attack and the algorithm for doing so is pretty simple.</p>
 <ol>
 <li>Start with two collections:
 <ul>
@@ -185,25 +185,25 @@ http://localhost:1313/logo_small-96x.png 96w" alt="Home">
 </li>
 <li>For each node in <code>currentNodes</code>
 <ol>
-<li>Add a bullet to it
-Maybe you&rsquo;ve noticed that the tree created this way looks like this:</li>
+<li>Add a bullet to it</li>
 </ol>
 </li>
 </ol>
+<p>Maybe you&rsquo;ve noticed that the tree created this way looks like this:</p>
 <p><img src="blog1/atak_3.png" alt="Attack tree expanded"></p>
-<p>This is by design as by doing this we can easily differentiate between different bullets and remove them when they are destroyed. But this is one of the things that can be improved in the future.</p>
+<p>By doing this we can easily differentiate between different bullets and remove them when they are destroyed. But this is one of the things that can be improved in the future.</p>
 <h1 id="so-what-was-the-first-iteration-of-this">So what was the first iteration of this</h1>
-<p>To save time and make things easy to test, the first iteration was based on simple Game Object pool where all of the attack elements were prefabs with single script that updated its transform. The building process created an actual hierarchy that could be seen in the inspector and the bullets contained a kinematic rigidbody with a collider. As you can probably imagine this wasn&rsquo;t very optimal and, with a large amount of bullets, pushed the physics simulation to it&rsquo;s limits. The other thing was that, every attack element had it&rsquo;s <code>MonoBehaviour.Update</code> method which also stressed the game engine. And last but not least, every bullet was drawn separately and needlessly stressed the rendering. All of this resulted in unplayable framerates (~20FPS).</p>
+<p>To save time and make things easy to test, the first iteration was based on simple Game Object pool where all of the attack elements were prefabs with single script that updated its transform. The building process created an actual hierarchy that could be seen in the inspector and the bullets contained a kinematic rigidbody with a collider. As you can probably imagine it wasn&rsquo;t very optimal and, with a large amount of bullets, pushed the physics simulation to it&rsquo;s limits. The other thing was that, every attack element had it&rsquo;s <code>MonoBehaviour.Update</code> method which also stressed the game engine. And last but not least, every bullet was drawn separately and needlessly stressed the rendering. All of this resulted in unplayable framerates (~20FPS).</p>
 <h1 id="how-can-this-be-improved">How can this be improved</h1>
-<p>Firstly, when using Unity systems - don&rsquo;t. In most situations it is much faster to do the thing ourselves. Of course this is an exaggeration but in this case that was the first step. Let&rsquo;s take a closer look at the hierarchy of the attack. All the elements do is change the transform in local space. All of the changes in children are handled by Unity. This comes at a cost, because there is an overhead of eg. managing Game Object or calling Update by the engine.</p>
+<p>Firstly, when using Unity systems - don&rsquo;t. In most situations it is much faster to do the thing ourselves. Of course this is an exaggeration but in this case that was the first step. Let&rsquo;s take a closer look at the hierarchy of the attack. All the elements do is change the transform in local space. All of the changes in children are handled by Unity. This comes at a cost, because there is an overhead of e.g. managing Game Object or calling Update by the engine.</p>
 <h1 id="lets-inspect-what-needs-to-be-done-exactly">Let&rsquo;s inspect what needs to be done exactly</h1>
 <p>As you may know, the position, scale and rotation of an object in 3D space can be stored in a 4x4 matrix. Further more to combine two transformation matrices we need to simply multiply them. With that in mind we can rewrite our system to, instead of creating an Unity transform hierarchy, create a purely C# hierarchy tree that would be updated manually by us. We&rsquo;d travel the tree and in our Update method we&rsquo;d pass in the time and the current transformation matrix. Then we would apply our own transformation to it and pass it down the hierarchy.</p>
 <h1 id="but-what-about-the-bullets">But what about the bullets</h1>
 <p>In the second iteration of the system the bullets remained as Game Objects with collider component and the computed matrix updating the transform component. This wasn&rsquo;t good enough as the rendering issue hadn&rsquo;t been addressed. Also a collider without rigidbody won&rsquo;t detect colliders on objects without rigidbody. This is a logical PhysX optimization as an object without a rigidbody can be considered stationary. But this meant that the bullets wouldn&rsquo;t be destroyed by the walls. Also while the Unity Game Object managing issue was mitigated it was not completely resolved.</p>
 <h1 id="enter-gpu-instancing">Enter GPU Instancing</h1>
-<p>GPU instancing is a mechanism that allows for many objects with the same mesh and material to be rendered efficiently. With this the bullets could become purely C# objects that tell some static renderer class to add them to the current batch. With this we can&rsquo;t rely on collider for collision detection so we make an assumption that all of the bullets have a spherical collider, then we can just call <code>Physics.OverlapSphereNonAlloc</code> and check for collisions that way. Moreover, the <code>Graphics.RenderMeshInstanced</code> expects an array of 4x4 matrices with the transformations of the to be rendered objects&hellip; which we calculated when traveling the tree.</p>
+<p>GPU instancing is a mechanism that allows for many objects with the same mesh and material to be rendered efficiently. With this the bullets could become purely C# objects that tell some static renderer class to add them to the current batch. With this we can&rsquo;t rely on collider for collision detection so we make an assumption that all of the bullets have a spherical collider, then we can just call <code>Physics.OverlapSphereNonAlloc</code> and check for collisions that way. Moreover, the <code>Graphics.RenderMeshInstanced</code> expects an array of 4x4 matrices with the transformations of the objects to render&hellip; which we calculated when traveling the tree.</p>
 <h1 id="dynamic-tree-deletion">Dynamic tree deletion</h1>
-<p>Another neat thing that was implemented was that when a node&rsquo;s child was removed the node would check whether it had any children. If not then it would delete itself. Thanks to this the attach basically cleans itself as it runs and there any dead ends where the updates are called and do nothing. The tree can also be imploded by simply destroying all of the bullets so you don&rsquo;t have to worry about some elements that could be left uncleaned. This caused some implementation headache because you can&rsquo;t modify lists when iterating over them. To overcome this the children of each node are stored in the linked list and i wrote this simple extension method to safely iterate over it:</p>
+<p>Another neat thing that was implemented was that when a node&rsquo;s child was removed the node would check whether it had any children. If not, then it would delete itself. Thanks to this the attack basically cleans itself as it runs and there any dead ends where the updates are called and do nothing. The tree can also be imploded by simply destroying all of the bullets so you don&rsquo;t have to worry about some elements that could be left uncleaned. This caused some implementation headache because you can&rsquo;t modify lists when iterating over them. To overcome this the children of each node are stored in a linked list which I can safely iterate using this simple extension method:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">RemoveSafeForEach</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="k">this</span> <span class="n">LinkedList</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">list</span><span class="p">,</span> <span class="n">System</span><span class="p">.</span><span class="n">Action</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">action</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">	<span class="n">LinkedListNode</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">current</span> <span class="p">=</span> <span class="n">list</span><span class="p">.</span><span class="n">First</span><span class="p">;</span>
@@ -218,7 +218,7 @@ Maybe you&rsquo;ve noticed that the tree created this way looks like this:</li>
 </span></span><span class="line"><span class="cl">	<span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><h1 id="what-about-the-garbage-collector">What about the Garbage Collector</h1>
-<p>The Garbage Collector is known for it&rsquo;s impact on performance and when coding in object oriented language you often forget about the memory usage. I&rsquo;ve managed to make this system work without any allocations during runtime. This was done by creating an object pool for C# objects. Contrary normal object pool the objects cannot be collected by the GC as this would break the system. This responsibility is on the programmer to call return to pool on given object. You could implement some resurrection mechanism (making the object return to pool in its finalizer and reregistering for finalization in GC) but it would still require a GC pass to work which would hinder the performance. Other than that I&rsquo;m using classic <code>Physics.OverlapSphereNonAlloc</code> with prealocated buffer.</p>
+<p>The Garbage Collector is known for it&rsquo;s impact on performance and when coding in an object oriented language you often forget about the memory usage. In spite of that, I&rsquo;ve managed to make this system work without any allocations during runtime. This was done by creating an object pool for C# objects. Contrary to normal Unity Object pool, the GC must be taken into account as the collection of an object would break the system. The responsibility to call <code>ReturnToPool</code> on a given object is on the programmer. You could implement some resurrection mechanism (making the object return to pool in its finalizer and reregistering for finalization in GC) but it would still require a GC pass to work which would hinder the performance. Other than that, I&rsquo;m using classic <code>Physics.OverlapSphereNonAlloc</code> with a prealocated buffer.</p>
 <h1 id="dont-trust-lambdas">Don&rsquo;t trust lambdas</h1>
 <p>While searching for things that were dynamically allocating memory I saw that for some reason I was generating around 8MB of garbage every tick. What was weird is that everywhere i could i made sure to use object pools or pass around structs that were created on the stack. As it turned out the culprit was this piece of code that every node had:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">Update</span><span class="p">(</span><span class="kt">float</span> <span class="n">time</span><span class="p">,</span> <span class="n">Matrix4x4</span> <span class="n">transformation</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">active</span><span class="p">)</span>
@@ -228,9 +228,9 @@ Maybe you&rsquo;ve noticed that the tree created this way looks like this:</li>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">	<span class="n">children</span><span class="p">.</span><span class="n">RemoveSafeForEach</span><span class="p">(</span><span class="n">child</span> <span class="p">=&gt;</span> <span class="n">child</span><span class="p">.</span><span class="n">Update</span><span class="p">(</span><span class="n">time</span><span class="p">,</span> <span class="n">newTransformation</span><span class="p">,</span> <span class="n">newActive</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>As you can see the lambda passed to the for each function had to create a closure on the <code>time</code>, <code>newTransform</code> and <code>newActive</code> variables which meant that these values were dynamically stored on the heap. The simple solution was to store these values as the class fields and create a simple update function that would take in a child object and update it with stored values.</p>
+</span></span></code></pre></div><p>As you can see, the lambda passed to the <code>ForEach</code> function had to create a closure on the <code>time</code>, <code>newTransform</code> and <code>newActive</code> variables which meant that these values were dynamically stored on the heap. The simple solution was to store these values as the class fields and create a simple update function that would take in a child object and update it with stored values.</p>
 <h1 id="and-speaking-of-closures-lets-wrap-this-up">And speaking of closures, let&rsquo;s wrap this up</h1>
-<p>The system in Core Mechanics Demo 2 utilizes all of the things mentioned above. The framerate now sits at ~60FPS which is a huge improvement over the starting solution. But this isn&rsquo;t the end. While reading this you maybe wondered <em>Why not use Jobs for that?</em>. And you&rsquo;d be right. There are still things to improve on such as:</p>
+<p>The system in Core Mechanics Demo 2 utilizes all of the things mentioned above. The framerate now sits at ~60FPS which is a huge improvement over the starting solution. But this isn&rsquo;t the end. While reading this you maybe wondered <em>Why not use Jobs for that?</em> And you&rsquo;d be right. There are still things to improve on such as:</p>
 <ul>
 <li>parallelize the update process (with Unity Job system)</li>
 <li>reduce amount of used elements by using the same one for every node in the tree (the problem shown in third picture), this can be used to optimize computation further by caching own transformation matrix instead of computing it independently across multiple objects</li>
