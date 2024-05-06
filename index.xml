@@ -6,8 +6,15 @@
     <description>Recent content on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2024 12:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 23:00:00 +0200</lastBuildDate>
     <atom:link href="https://storkstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn about your own game using telemetry</title>
+      <link>https://storkstudios.github.io/blog/telemetry/</link>
+      <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
+      <guid>https://storkstudios.github.io/blog/telemetry/</guid>
+      <description>Knowledge is power Video games are all about having fun. As a developer, you want your players to have a good time. It doesn&amp;rsquo;t matter whether it&amp;rsquo;s a crane operator simulator or a fast-paced shooter. You need to create an experience that people will like. The problem is, as the creator you are not a player, at least not a regular one. Your opinion on your game&amp;rsquo;s features and balance is heavily biased by your experience.</description>
+    </item>
     <item>
       <title>Bringing your project to the people</title>
       <link>https://storkstudios.github.io/blog/2024_04_26_bydgoszcz/</link>
