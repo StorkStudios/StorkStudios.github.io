@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Stork&#39;Studios</title>
+    <link>https://storkstudios.github.io/authors/</link>
+    <description>Recent content in Authors on Stork&#39;Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2024 23:00:00 +0200</lastBuildDate>
+    <atom:link href="https://storkstudios.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Andrzej &#34;Pojemnik&#34; Gauza</title>
+      <link>https://storkstudios.github.io/authors/andrzej-pojemnik-gauza/</link>
+      <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
+      <guid>https://storkstudios.github.io/authors/andrzej-pojemnik-gauza/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adam &#34;Gahlammon&#34; Dachtera</title>
+      <link>https://storkstudios.github.io/authors/adam-gahlammon-dachtera/</link>
+      <pubDate>Mon, 29 Apr 2024 12:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/authors/adam-gahlammon-dachtera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Szymon Kaczmarek</title>
+      <link>https://storkstudios.github.io/authors/szymon-kaczmarek/</link>
+      <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/authors/szymon-kaczmarek/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

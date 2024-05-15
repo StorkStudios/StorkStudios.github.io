@@ -3,9 +3,9 @@
   
 
 <head>
-  <title>Learn about your own game using telemetry | Stork&#39;Studios</title>
+  <title>Authors | Stork&#39;Studios</title>
 
-  <meta name="title" content="Learn about your own game using telemetry | Stork&#39;Studios">
+  <meta name="title" content="Authors | Stork&#39;Studios">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,13 @@
 
   <meta name="description" content="Official Stork&#39;Studios website">
 
-  <meta name="author" content="map[name:Stork&#39;Studios]">
+  
 
   
     
-  <meta property="og:title" content="Learn about your own game using telemetry | Stork&#39;Studios">
+  <meta property="og:title" content="Authors | Stork&#39;Studios">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://storkstudios.github.io/blog/telemetry/">
+  <meta property="og:url" content="https://storkstudios.github.io/authors/">
   
         
         <meta property="og:image" content="https://storkstudios.github.io/opengraph.png">
@@ -33,11 +33,11 @@
 
   
 
-  <link rel="canonical" href="https://storkstudios.github.io/blog/telemetry/">
+  <link rel="canonical" href="https://storkstudios.github.io/authors/">
   
-  
+  <link href="https://storkstudios.github.io/authors/index.xml" rel="alternate" type="application/rss+xml" title="Stork&#39;Studios">
 
-  <link rel="stylesheet" href="https://storkstudios.github.io/style.dfa6a657ae994e026ae86cc065bbc01b5565e0c0c22a07bd84502c847b49d419.css">
+  <link rel="stylesheet" href="https://storkstudios.github.io/style.034867240886ce566946d35637b2ba48a863761fa8dbd7d3363e262d1d81e2b7.css">
 
   
 
@@ -140,88 +140,38 @@ https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 </section>
 
     <main>
-
-      <section class="container">
-        <section class="content">
-          <h1> Learn about your own game using telemetry </h1>
-
-            <div class="sub-header">
-              May 6, 2024 · 7 minutes read
-            </div>
-
-          <article class="entry-content">
-            <h1 id="knowledge-is-power">Knowledge is power</h1>
-<p>Video games are all about having fun. As a developer, you want your players to have a good time. It doesn&rsquo;t matter whether it&rsquo;s a crane operator simulator or a fast-paced shooter. You need to create an experience that people will like. The problem is, as the creator you are not a player, at least not a regular one. Your opinion on your game&rsquo;s features and balance is heavily biased by your experience. You may love a section of the level, or a mechanic just because <strong>you</strong>&rsquo;ve created it. You may think an area is easy, because you have already playtested it a thousand times. You cannot impartially rate your own work, but you do need an impartial opinion in order to make it better.</p>
-<h1 id="playtesting">Playtesting</h1>
-<p>That&rsquo;s where playtesting comes in. This is one of the most important parts of the iterative process known as video game development. When you can watch someone play your game, you get a lot of important information. It&rsquo;s even better if you talk to the player afterwards. This is a great oportunity to learn how they understand the mechanics, what are the good and the bad parts of the gameplay.</p>
-<p>The thing is, you cannot always stand behind your player&rsquo;s desk and watch. You cannot always talk to them. More often than not, players are just random people on the other side of the globe who found your game on the Internet. So what can we do about it? How can we get some of their sweet feedback?</p>
-<p>The obvious answer is Google Forms. Create a feedback form with all the necessary fields, attach a link to the game. We can even embed the link inside the game, to make it easier for players to find. We did it in the first demo of Bulet Waste. Simple, yet effective.</p>
-<p><img src="blog_telemetry/form.png" alt="The form from the first demo"></p>
-<p>Except it&rsquo;s not.</p>
-<p>The problem is, no one actually fills this kind of forms. You know it very well. How many times did you left an opinion in an online shop? How about an opinion different than &ldquo;zero stars, it&rsquo;s broken&rdquo;? That&rsquo;s right. Writing opinions is too much of a hassle, basically for nothing.</p>
-<p>If your game is not bad enough to cause allergic reactions, you won&rsquo;t get a lot of feedback this way. So we are back to square one.</p>
-<p><img src="blog_telemetry/square_one.png" alt="Square one"></p>
-<p><em>This is actually a rectangle, but you get the idea.</em></p>
-<p>How can we fix that?</p>
-<h1 id="spying-on-players-for-fun-and-profit">Spying on players for fun and profit</h1>
-<p>As you can guess from the title of this post, the answer is telemetry. Players are for playing, not filling forms. Of course, they need a possibility to provide some written feedback, but it should be optional. We need to gather data about the gameplay automatically. We&rsquo;ll probably need to ask for consent, but it&rsquo;s just &ldquo;you agree, or you don&rsquo;t play&rdquo;. <em>It may sound stupid, but that&rsquo;s how all of the big corporations work. Have you ever read their privacy policies? Do you know what do you agree to? But I digress&hellip;</em></p>
-<p>We don&rsquo;t want to reinvent the wheel. Many games use telemetry, Unity is one of the most popular game engines in the world, so there should be some ready to use solutions, right?<br>
-In fact, there are quite a few. The problem is, these are all commercial products. Either pretty expensive or attached to some big cloud providers. We wanted something cheap - possibly free, and flexible - you never know what you will need in the future. In the end we decided to develop it by ourselves, or rather I decided, because I just wanted to build this kind of thing.</p>
-<h1 id="data-waste">Data Waste</h1>
-<p>I decided the telemetry system has to be called Data Waste. It aligns nicely with the game&rsquo;s title and I love a bad pun.</p>
-<p><img src="blog_telemetry/dw_logo.png" alt="Data Waste logo">
-<em>Now this is a cool logo</em></p>
-<p>To create a useful telemetry setup we need three things:<br>
-1) a module in the game that sends data to the 2) server that receives and saves it in a format that can be analyzed by the 3) analitics module.</p>
-<h3 id="the-game-module">The game module</h3>
-<p>Here, we need to create messages, serialize and send them to an endpoint. It&rsquo;s a simple task. We just have to remember that we should not use the main Unity thread for network communication, as it will block everything for ages.</p>
-<p>Implementation goes like this:</p>
-<ol>
-<li>Create a queue for the messages</li>
-<li>Create a thread that will send them</li>
-<li>Put the messages in the queue - every message besides the actual content consists of a timestamp and the player&rsquo;s id</li>
-<li>Serialize the data into JSON format with the sender thread</li>
-<li>Send the message</li>
-<li>Use C#&rsquo;s <code>async</code> <code>Task</code>s and <code>TaskCompletionSource</code>s to provide request results to the main thread</li>
-<li>Smile, you did great</li>
-</ol>
-<p>In theory, we could just ignore the responses we get from the server and thus make the code even simpler. But with this two-way communication we can do things like checking if a new version of the game is available, or testing whether the telemetry server still works. The second one is actually pretty useful for debug purposes.</p>
-<h3 id="the-telemetry-server">The telemetry server</h3>
-<p>This one is even simpler. Receive a message, check if it makes sense and if it does, save to an output file.</p>
-<p>But why a file? In the begining, I wanted to use a database for storing the results. Mongo or Postgres would be a nice fit for the task. The problem is, we are doing in on the cheap. In fact, we managed to get a server for running our game&rsquo;s telemetry for free - a <a href="https://frog.mikr.us/">Mikrus FROG</a> instance. It&rsquo;s great, but pretty limited - it has only 256MB of RAM which is not a lot for the OS, HTTP server and a DB. We save some memory by <em>dropping</em> the database. It means we have to do a little bit more complicated analitics setup, as we cannot access the data directly. On the other hand, we don&rsquo;t need any realtime data processing, so we can get on with that.</p>
-<h3 id="analitics-platform">Analitics platform</h3>
-<blockquote>
-<p>Data you don&rsquo;t use is only thrash on your hard drive</p>
-<p>~probably Sun Tzu</p>
-</blockquote>
-<p>We don&rsquo;t use a database on the server, but it would be nice to have one in order to handle the data effectively. So for the analisis, we put all of the JSON files downloaded from the server into a Postgres instance (<code>jsonb</code> is great). From there we can read it using Python in a Jupyter Notebook, because this is how all the cool data science kids do nowadays.</p>
-<h1 id="what-do-we-collect">What do we collect</h1>
-<p>Now we have a way to collect and analize the data gathered from the players. But what information do we actually need? &ldquo;Everything&rdquo; is not an option, as you will flood your backend with gigabytes of useless stuff. Games really process a lot every frame. We need to focus on important things, but there is no good way to decide what will be useful and what won&rsquo;t. This is one of the many moments in gamedev when we have to guess.</p>
-<p>These are the most important things we collect. <em>Will this list change? Probably yes. Is all of that useful? Probably no. Can we be sure of anything in this universe? Perhaps.</em></p>
-<ul>
-<li>player deaths - where and why do people die?</li>
-<li>enemies killed - how and how quickly do players kill enemies?</li>
-<li>player movements on the level - do players get lost?</li>
-<li>performance and hardware data - on what setups the game lags?</li>
-</ul>
-<h1 id="results">Results</h1>
-<p>We have already analized some of the results and started making changes in the game based on that. The next demo of Bullet Waste will hopefuly be much better thanks to all the information we gathered. As for the details, stay tuned for a next post on this blog, where we will describe changes planned for the next release.</p>
-<p>If you are curious what results we <em>actually</em> got, I can tell that as for 30th of april (I&rsquo;m too lazy to check again now), we had around 850 deaths of players in Bullet Waste.</p>
-<p>Now go <a href="https://storkstudios.itch.io/bullet-waste">play the game</a> and give us some more deaths to count.</p>
-<p><img src="blog_telemetry/bj_icon.png" alt="BJ"></p>
-<p>Andrzej &ldquo;Pojemnik&rdquo; Gauza</p>
-
-          </article>
-
-          <div class="pagination">
-            
-              <a href="https://storkstudios.github.io/blog/2024_04_26_bydgoszcz/">&laquo; Bringing your project to the people</a>
-            
-            
+      <section class="blog" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12"><h1>Authors</h1></div>
           </div>
-        </section>
-        <br>
-        
+          <div class="row">
+            <div class="col-xs-12 posts-list">
+              
+                <article>
+                  <h2><a href="https://storkstudios.github.io/authors/andrzej-pojemnik-gauza/">Andrzej &#34;Pojemnik&#34; Gauza</a></h2>
+                  <div class=sub-header>
+                    May 6, 2024 · 0 minutes read
+                  </div>
+                </article>
+              
+                <article>
+                  <h2><a href="https://storkstudios.github.io/authors/adam-gahlammon-dachtera/">Adam &#34;Gahlammon&#34; Dachtera</a></h2>
+                  <div class=sub-header>
+                    April 29, 2024 · 0 minutes read
+                  </div>
+                </article>
+              
+                <article>
+                  <h2><a href="https://storkstudios.github.io/authors/szymon-kaczmarek/">Szymon Kaczmarek</a></h2>
+                  <div class=sub-header>
+                    April 12, 2024 · 0 minutes read
+                  </div>
+                </article>
+              
+            </div>
+          </div>
+        </div>
       </section>
 
     </main>
