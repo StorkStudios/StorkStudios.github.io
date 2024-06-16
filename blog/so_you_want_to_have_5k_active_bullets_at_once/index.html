@@ -37,7 +37,7 @@
   
   
 
-  <link rel="stylesheet" href="https://storkstudios.github.io/style.91ea2323773c8c477aae8d49897917507ab77039d60cda6436fb592ace4229d9.css">
+  <link rel="stylesheet" href="https://storkstudios.github.io/style.32fd0397301a4653bfb87783964a1f863d64dea17ffac5801dee52c55cc91cbf.css">
 
   
 
@@ -182,9 +182,9 @@ https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 </ul>
 <h1 id="understanding-the-concept">Understanding the concept</h1>
 <p>When I was tasked with this I asked what is the relatively complicated attack that should be possible to create and I was given this image:</p>
-<p><img src="blog1/atak_1.png" alt="A sample attack"></p>
+<p><img src="so_you_want_to_have_5k_active_bullets_at_once/atak_1.png" alt="A sample attack"></p>
 <p>The image itself doesn&rsquo;t really say that much about how would this attack behave over time but it was very helpful regardless. You can imagine this as a hierarchy tree where each node is responsible for one simple movement like this:</p>
-<p><img src="blog1/atak_2.png" alt="Attack tree simple"></p>
+<p><img src="so_you_want_to_have_5k_active_bullets_at_once/atak_2.png" alt="Attack tree simple"></p>
 <p>If we were to follow each possible path from the enemy to the bullet we would recreate the attack from above.</p>
 <h1 id="okay-so-how-to-represent-this">Okay, so how to represent this</h1>
 <p>The rotation element in the tree above (and later added scale element) exist as a single node in its layer.  This allows for the configuration of such element to be a simple Scriptable Object. The tricky part starts with the linear movement elements as in a normal use case there would be a lot more than 6 directions that we&rsquo;d want to define. Also, the sheer amount of Scriptable Objects were them to be stored in separate files would be unmanageable. So I made the decision to combine directions in a single layer into a list in a single Scriptable Object. This allowed me to write a simple script to parse and import a large number of directions stored in a mesh asset. Starting position and move direction are stored in vertex position and vertex normal respectively. Lastly, all of the element configurations are stored in a single attack configuration in a simple list that represents the layers shown in the picture above.</p>
@@ -212,7 +212,7 @@ https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 </li>
 </ol>
 <p>Maybe you&rsquo;ve noticed that the tree created this way looks like this:</p>
-<p><img src="blog1/atak_3.png" alt="Attack tree expanded"></p>
+<p><img src="so_you_want_to_have_5k_active_bullets_at_once/atak_3.png" alt="Attack tree expanded"></p>
 <p>By doing this we can easily differentiate between different bullets and remove them when they are destroyed. But this is one of the things that can be improved in the future.</p>
 <h1 id="so-what-was-the-first-iteration-of-this">So what was the first iteration of this</h1>
 <p>To save time and make things easy to test, the first iteration was based on simple Game Object pool where all of the attack elements were prefabs with single script that updated its transform. The building process created an actual hierarchy that could be seen in the inspector and the bullets contained a kinematic rigidbody with a collider. As you can probably imagine it wasn&rsquo;t very optimal and, with a large amount of bullets, pushed the physics simulation to it&rsquo;s limits. The other thing was that, every attack element had it&rsquo;s <code>MonoBehaviour.Update</code> method which also stressed the game engine. And last but not least, every bullet was drawn separately and needlessly stressed the rendering. All of this resulted in unplayable framerates (~20FPS).</p>
