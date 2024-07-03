@@ -6,8 +6,15 @@
     <description>Recent content on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jun 2024 13:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 21:00:00 +0100</lastBuildDate>
     <atom:link href="https://storkstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storks, games and pigeons</title>
+      <link>https://storkstudios.github.io/blog/storks_games_pigeons/</link>
+      <pubDate>Thu, 27 Jun 2024 21:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/blog/storks_games_pigeons/</guid>
+      <description>Storks, games and pigeons A few weeks ago, I spotted a US government spy drone pigeon trying to build a nest on my balcony. Personally, I don’t really mind these flying rats as long as they keep their distance, but this one really crossed the line. I threw away these few sticks it managed to gather.&#xA;I thought it’s an interesting coincidence that a bird decided to build its nest at our unofficial office, because we sometimes call it the Stork&amp;rsquo;Nest.</description>
+    </item>
     <item>
       <title>The XR GameJam substory</title>
       <link>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</link>
@@ -48,7 +55,7 @@
       <link>https://storkstudios.github.io/about/</link>
       <pubDate>Fri, 05 Apr 2024 22:31:31 +0200</pubDate>
       <guid>https://storkstudios.github.io/about/</guid>
-      <description>We are Stork&amp;rsquo;Studios, a small team of young developers who wants to create special and amazing games. Currently we&amp;rsquo;re focusing on our main project: Bullet Waste, a combination of first person slasher and bullet hell. We also love to participate in game jams and share our creations with others.</description>
+      <description>We are Stork&amp;rsquo;Studios, a small team of young developers who want to create special and amazing games. Currently we&amp;rsquo;re focusing on our main project: Bullet Waste, a combination of first person slasher and bullet hell. We also love to participate in game jams and share our creations with others.</description>
     </item>
     <item>
       <title>Bullet Waste</title>
