@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Aug 2024 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 20:00:00 +0200</lastBuildDate>
     <atom:link href="https://storkstudios.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animation system in Bullet Waste</title>
+      <link>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</link>
+      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
+      <guid>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</guid>
+      <description>Hi! After a little summer break we are back to technical posts. As you may have guessed from the title, today I will show you around the animation system in Bullet Waste. I will tell a bit of backstory, explain the design goals and how we managed to fulfill them.&#xA;Animations don&amp;rsquo;t always work as expected&#xA;Handling animations in Unity is one of these things that are easy to begin with, but tend to get harder as your project develops.</description>
+    </item>
     <item>
       <title>Development After Two Demos</title>
       <link>https://storkstudios.github.io/blog/development_after_two_demos/</link>
