@@ -37,7 +37,7 @@
   
   
 
-  <link rel="stylesheet" href="https://storkstudios.github.io/style.83bc5a722bcc743345e13edb4cfd608375199d412731d7b3b4054909654eb9e4.css">
+  <link rel="stylesheet" href="https://storkstudios.github.io/style.6e17247c0118968321cea344b1ffb71626857c92cd3b6f90158f1b25cca09462.css">
 
   
 
@@ -173,10 +173,13 @@ https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 
         <article class="entry-content">
           <p>Hi! After a little summer break we are back to technical posts. As you may have guessed from the title, today I will show you around the animation system in Bullet Waste. I will tell a bit of backstory, explain the design goals and how we managed to fulfill them.</p>
-<p><img src="animation_system_in_bullet_waste/strafe_r.gif" alt="strafe"><br>
-<em>Animations don&rsquo;t always work as expected</em></p>
+<p><figure>
+<img src="animation_system_in_bullet_waste/strafe_r.gif" alt="strafe"><figcaption>Animations don&#39;t always work as expected</figcaption></figure>
+</p>
 <p>Handling animations in Unity is one of these things that are easy to begin with, but tend to get harder as your project develops. The <code>AnimationController</code> provides a nice out of the box experience. It is beginner-friendly and has a lot of useful features. Problems begin when you have many different animations to play and your logic starts to get more and more complicated. If you are not careful, you may get entangled in a web of transitions, states, substates and parameters, wondering how on earth is that supposed to work.</p>
-<p><img src="animation_system_in_bullet_waste/controller.png" alt="controller">  
+<p><figure>
+<img src="animation_system_in_bullet_waste/controller.png" alt="controller"></figure>
+  
 <em>How on earth is that supposed to work?</em></p>
 <h1 id="animations-in-bullet-waste">Animations in Bullet Waste</h1>
 <p>For a long time, Bullet Waste handled animations the same way as it did back in its gamejam days. Without a clear separation, every part of the code that needed to interact with the animations messed around with parameters of the <code>AnimationController</code>. As usual in a spaghetti like that, changing something in one place was breaking a functionality somewhere else. It was high time to redesign it from scratch.</p>
@@ -190,19 +193,29 @@ https://storkstudios.github.io/logo_small-96x.png 96w" alt="Home">
 <h3 id="handling-transitions-and-state">Handling transitions and state</h3>
 <p>Ok, but how to avoid using default parameter-driven transitions? We can start every animation manually by calling <code>Animator.Play</code> or other similar methods. This way we gain full control over what is happening. Of course, we have to implement our own logic to handle the states. The initial idea was to use a <a href="https://en.wikipedia.org/wiki/Pushdown_automaton">pushdown automaton</a> or some other state machine. I created a prototype that made use of such solution, but at the end of the day I didn&rsquo;t go this way. I wanted to keep at least some visual debugging and configuration, without having to design my own editor windows. I also wanted to be able to play more than one animation at once, but more on that later.</p>
 <p>The final system uses layers of the <code>AnimationController</code> for it&rsquo;s core functionality. Every layer is a separate state machine with an assigned priority. The system chooses which layer to activate and which state to play. These two processes are independent. When we change layer to a one with higher priority, we don&rsquo;t stop animations playing on the lower layers. Instead, the state from a higher layer covers up states from lower ones. This way, we can go back to an animation that is playing on a lower layer. If the newly started animation is on the same layer, it interrupts the current one. Only one layer at a time is &ldquo;active&rdquo; - it has weight 1, while others have 0. An exception from this is the process of changing an active layer - it&rsquo;s done by gradually increasing the weight of the new layer while decreasing the weight of the old one.</p>
-<p><img src="animation_system_in_bullet_waste/layer.png" alt="layer"><br>
+<p><figure>
+<img src="animation_system_in_bullet_waste/layer.png" alt="layer"></figure>
+<br>
 An example of a layer. Notice the lack of defined transitions</p>
 <p>We didn&rsquo;t actually get rid of <strong>all</strong> transitions in the <code>AnimationController</code>. Unconditional ones were left, as they provide a simple way of playing sequences of animations without having to write any code to handle them.</p>
 <h3 id="example">Example</h3>
 <p>The explanation might have been a little complicated, so let me guide you through an example.</p>
-<p><img src="animation_system_in_bullet_waste/example1.png" alt="example part 1"></p>
+<p><figure>
+<img src="animation_system_in_bullet_waste/example1.png" alt="example part 1"></figure>
+</p>
 <p>We have a simple <code>AnimationController</code> with two layers and three animations. At first, the Run animation is playing on Layer 0. Layer 0 has weight 1 and Layer 1 has weight 0 - only the Run is visible.</p>
-<p><img src="animation_system_in_bullet_waste/example2.png" alt="example part 2"></p>
+<p><figure>
+<img src="animation_system_in_bullet_waste/example2.png" alt="example part 2"></figure>
+</p>
 <p>Now, we start the Jump animation. It is located on a layer with higher index than the currently visible one, which means it has higher priority. Animation starts and layers&rsquo; weights change (they do it gradually, so we get a smooth transition, but here we omit that for simplicity). Now only the Jump animation is visible, even though Run is still playing. Notice that Jump has no arrow indicating that it is looped.</p>
-<p><img src="animation_system_in_bullet_waste/example3.png" alt="example part 3"></p>
+<p><figure>
+<img src="animation_system_in_bullet_waste/example3.png" alt="example part 3"></figure>
+</p>
 <p>As the Jump animation is not looped, after it finishes weights change back to how they were at the start.</p>
 <p><em>Handling other cases is left as an exercise for the reader.</em><br>
-<img src="misc/bj_icon.png" alt="BJ"></p>
+<figure>
+<img src="misc/bj_icon.png" alt="BJ"></figure>
+</p>
 <p>The system also supports animation masks, blend trees, substates and animation events - every feature of the <code>Animator</code> that we use in Bullet Waste.</p>
 <h3 id="the-interface">The interface</h3>
 <p>One of the goals of this redesign was to provide a simple and consistent interface for the rest of the game to work with. With the new solution, only a few methods are needed to use the system.
@@ -211,11 +224,15 @@ We start a state with <code>Set</code>. For looped animations we have a compleme
 <h1 id="technical-details-and-quirks">Technical details and quirks</h1>
 <h3 id="state-detection">State detection</h3>
 <p>The main class of the system needs to know what is happening inside the <code>Animator</code>. Unfortunately, Unity doesn&rsquo;t provide any default events on start and end of a state. In theory, we could query current states on every layer of the <code>Animator</code> every frame, but it doesn&rsquo;t seem very efficient. To solve this, we used a <code>StateMachineBaviour</code> to send events when states begin and end. States had to be identified by their hashes. There is an interesting issue with this approach - <code>OnStateExit</code> in <code>StateMachineBaviour</code> is called only when a new state on the same layer is entered. It means that after every not looping state we had to add an unconditional transition to a dummy state which is only used to detect the completion of the state before it.</p>
-<p><img src="animation_system_in_bullet_waste/empty_state.png" alt="empty state"><br>
+<p><figure>
+<img src="animation_system_in_bullet_waste/empty_state.png" alt="empty state"></figure>
+<br>
 A dummy state added to a layer</p>
 <h3 id="configuration">Configuration</h3>
 <p>As we are not using the default transition system, I had to find a way of configuring the state changes. Thankfully, our solution doesn&rsquo;t forbid any transitions. We also assume that every transition to a state takes the same amount of time. This considerably reduces complexity of the configuration, as we don&rsquo;t have to create any matrices of transition durations.</p>
-<p><img src="animation_system_in_bullet_waste/config.png" alt="configuration example"><br>
+<p><figure>
+<img src="animation_system_in_bullet_waste/config.png" alt="configuration example"></figure>
+<br>
 Here is an example of how to configure a few animations and their transitions. There is also a graphical bug in the Unity editor. <em>One of many graphical bugs actually.</em></p>
 <h1 id="summary">Summary</h1>
 <p>I hope this short description will inspire you to play a bit with handling animations in Unity. By careful design you can avoid many common problems and create something that is both useful and reusable in future projects.</p>

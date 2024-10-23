@@ -13,7 +13,7 @@
       <link>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</link>
       <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
       <guid>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</guid>
-      <description>Hi! After a little summer break we are back to technical posts. As you may have guessed from the title, today I will show you around the animation system in Bullet Waste. I will tell a bit of backstory, explain the design goals and how we managed to fulfill them.&#xA;Animations don&amp;rsquo;t always work as expected&#xA;Handling animations in Unity is one of these things that are easy to begin with, but tend to get harder as your project develops.</description>
+      <description>Hi! After a little summer break we are back to technical posts. As you may have guessed from the title, today I will show you around the animation system in Bullet Waste. I will tell a bit of backstory, explain the design goals and how we managed to fulfill them.&#xA;Animations don&amp;#39;t always work as expected&#xD;Handling animations in Unity is one of these things that are easy to begin with, but tend to get harder as your project develops.</description>
     </item>
     <item>
       <title>Storks, games and pigeons</title>
