@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Szymon Kaczmarek on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/authors/szymon-kaczmarek/</link>
+    <link>http://localhost:1313/authors/szymon-kaczmarek/</link>
     <description>Recent content in Szymon Kaczmarek on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jun 2024 13:00:00 +0100</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/authors/szymon-kaczmarek/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 20:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/szymon-kaczmarek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick-fire: 3 GameJams - 6 games</title>
+      <link>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</link>
+      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</guid>
+      <description>This post is about several GameJams that we attended recently.&#xA;0h GameJam on the tram Remember My summer internship at a local nuclear reactor? So the best 3 teams at the GameJam got a free Indie Pass for the Game Industry Conference. We were tied for the 2nd place so lucky us, huh? Either way, it wasn&amp;rsquo;t the first time we were there. But this year was different. The event fell on the daylight saving time day in Poland where we enter the winter time by moving our clocks by one hour back when the clock hits 3:00am.</description>
+    </item>
     <item>
       <title>The XR GameJam substory</title>
-      <link>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</link>
+      <link>http://localhost:1313/blog/the_xr_gamejam_substory/</link>
       <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</guid>
+      <guid>http://localhost:1313/blog/the_xr_gamejam_substory/</guid>
       <description>Hello There In this post I want to share some stories and thoughts from the XR GameJam which we, the Stork&amp;rsquo;Studios, attended recently (30-31.05.2024).&#xA;About XR GameJam The premise of this GameJam was to make a XR/VR game. The event lasted approximately 30 hours (10:00 through 16:00 on the next day). There were multiple sites at which you could attend the jam which included:&#xA;Helsinki XR Center Game Habitat&amp;rsquo;s DevHub at Malmo Poznan University of Technology DE:HIVE at Berlin The onboarding consisted of two presentations.</description>
     </item>
     <item>
       <title>So you want to have 5k active bullets at once...</title>
-      <link>https://storkstudios.github.io/blog/so_you_want_to_have_5k_active_bullets_at_once/</link>
+      <link>http://localhost:1313/blog/so_you_want_to_have_5k_active_bullets_at_once/</link>
       <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/so_you_want_to_have_5k_active_bullets_at_once/</guid>
+      <guid>http://localhost:1313/blog/so_you_want_to_have_5k_active_bullets_at_once/</guid>
       <description>Why As you may know Bullet Waste is a first-person bullet-hell game, which means spawning a lot of bullets at runtime. Furthermore, a game designer needs to be able to define complicated attacks with ease. This task was assigned to me and I think I&amp;rsquo;ve come up with a pretty interesting solution.&#xA;But how to tackle this This problem (as many others) consists of many smaller ones. But for the sake of this article lets focus on the main two:</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galleries on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/gallery/</link>
+    <link>http://localhost:1313/gallery/</link>
     <description>Recent content in Galleries on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Apr 2024 22:23:09 +0200</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bullet Waste</title>
-      <link>https://storkstudios.github.io/gallery/bullet-waste/</link>
+      <link>http://localhost:1313/gallery/bullet-waste/</link>
       <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
-      <guid>https://storkstudios.github.io/gallery/bullet-waste/</guid>
+      <guid>http://localhost:1313/gallery/bullet-waste/</guid>
       <description>Combination of a first person slasher and a bullet hell, where you play as a mutated assasin with very high mobility.</description>
     </item>
     <item>
       <title>FIGA Legend</title>
-      <link>https://storkstudios.github.io/gallery/figa-legend/</link>
+      <link>http://localhost:1313/gallery/figa-legend/</link>
       <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
-      <guid>https://storkstudios.github.io/gallery/figa-legend/</guid>
+      <guid>http://localhost:1313/gallery/figa-legend/</guid>
       <description>Quick and simple fighting game for two, where characters are running automatically and players only control their combat actions, like punching, jumping or sliding.</description>
     </item>
     <item>
       <title>Mediator: Back to the roots</title>
-      <link>https://storkstudios.github.io/gallery/mediator/</link>
+      <link>http://localhost:1313/gallery/mediator/</link>
       <pubDate>Fri, 05 Apr 2024 22:23:09 +0200</pubDate>
-      <guid>https://storkstudios.github.io/gallery/mediator/</guid>
+      <guid>http://localhost:1313/gallery/mediator/</guid>
       <description>Open world RPG created in 48h, focused on our favourite quests in that kind of games: gathering number of random items for NPCs.</description>
     </item>
   </channel>

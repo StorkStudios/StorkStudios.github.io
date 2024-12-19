@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam &#34;Gahlammon&#34; Dachtera on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/authors/adam-gahlammon-dachtera/</link>
+    <link>http://localhost:1313/authors/adam-gahlammon-dachtera/</link>
     <description>Recent content in Adam &#34;Gahlammon&#34; Dachtera on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Aug 2024 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/authors/adam-gahlammon-dachtera/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/adam-gahlammon-dachtera/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development After Two Demos</title>
-      <link>https://storkstudios.github.io/blog/development_after_two_demos/</link>
+      <link>http://localhost:1313/blog/development_after_two_demos/</link>
       <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/blog/development_after_two_demos/</guid>
+      <guid>http://localhost:1313/blog/development_after_two_demos/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of Bullet Waste, here to tell you about the designing of our game.&#xA;Introduction We&amp;rsquo;re currently approaching the release of the third demo of Bullet Waste. It will bring many changes to the core of our gameplay, for example a big rework of combat and arena structure. It will also introduce new enemies, new environments and reimagined training sequence, so there&amp;rsquo;s surely something to look out for.</description>
     </item>
     <item>
       <title>Mr. Senior Developer, what do you think?</title>
-      <link>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</link>
+      <link>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</link>
       <pubDate>Sat, 13 Jul 2024 01:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</guid>
+      <guid>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of the Bullet Waste, here to tell you about the event we&amp;rsquo;ve attended lately.&#xA;Let&amp;rsquo;s go! The event I&amp;rsquo;ll be talking about is the ZTGK, 16th edition of it to be precise, in which we participated two weeks ago. It stands for Zespołowe Tworzenie Gier Komputerowych (Collaborative Development of Computer Games). It&amp;rsquo;s a competition in Łódź that takes place once a year at the end of June.</description>
     </item>
     <item>
       <title>Demo 2.2 Patchnotes</title>
-      <link>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</link>
+      <link>http://localhost:1313/blog/demo_2_2_patchnotes/</link>
       <pubDate>Tue, 28 May 2024 08:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</guid>
+      <guid>http://localhost:1313/blog/demo_2_2_patchnotes/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and main designer of the Bullet Waste project, here to tell you about latest patches of our demo and to tease what will come next.&#xA;About the changes The patched version of our last demo was just released and I&amp;rsquo;d like to share with you a little bit about the things we&amp;rsquo;ve changed. The patches we included are mostly based on the issues that were problematic for the players and quick to fix for us.</description>
     </item>
     <item>
       <title>Bringing your project to the people</title>
-      <link>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</link>
+      <link>http://localhost:1313/blog/bringing_your_project_to_the_people/</link>
       <pubDate>Mon, 29 Apr 2024 12:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</guid>
+      <guid>http://localhost:1313/blog/bringing_your_project_to_the_people/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and designer of Bullet Waste project, here to tell you a word or two about our experience with presenting our game on a conference and how it impacted the way we think about creating this project.&#xA;Showtime Kolejna Konferencja, Bydgoszcz, 13th of April&#xA;Let&amp;rsquo;s start from the end, the conference itself. The day we went there, I was so glad that we made it.</description>
     </item>
   </channel>

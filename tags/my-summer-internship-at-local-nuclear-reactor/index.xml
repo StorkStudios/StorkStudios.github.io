@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Summer Internship at Local Nuclear Reactor on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/tags/my-summer-internship-at-local-nuclear-reactor/</link>
+    <link>http://localhost:1313/tags/my-summer-internship-at-local-nuclear-reactor/</link>
     <description>Recent content in My Summer Internship at Local Nuclear Reactor on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jun 2024 13:00:00 +0100</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/tags/my-summer-internship-at-local-nuclear-reactor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/my-summer-internship-at-local-nuclear-reactor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The XR GameJam substory</title>
-      <link>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</link>
+      <link>http://localhost:1313/blog/the_xr_gamejam_substory/</link>
       <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</guid>
+      <guid>http://localhost:1313/blog/the_xr_gamejam_substory/</guid>
       <description>Hello There In this post I want to share some stories and thoughts from the XR GameJam which we, the Stork&amp;rsquo;Studios, attended recently (30-31.05.2024).&#xA;About XR GameJam The premise of this GameJam was to make a XR/VR game. The event lasted approximately 30 hours (10:00 through 16:00 on the next day). There were multiple sites at which you could attend the jam which included:&#xA;Helsinki XR Center Game Habitat&amp;rsquo;s DevHub at Malmo Poznan University of Technology DE:HIVE at Berlin The onboarding consisted of two presentations.</description>
     </item>
   </channel>

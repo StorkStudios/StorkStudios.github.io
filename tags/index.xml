@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Sep 2024 20:00:00 +0200</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 20:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Animations</title>
-      <link>https://storkstudios.github.io/tags/animations/</link>
-      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/animations/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>BulletWaste</title>
-      <link>https://storkstudios.github.io/tags/bulletwaste/</link>
-      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/bulletwaste/</guid>
+      <title>Events</title>
+      <link>http://localhost:1313/tags/events/</link>
+      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/events/</guid>
       <description></description>
     </item>
     <item>
       <title>GameDev</title>
-      <link>https://storkstudios.github.io/tags/gamedev/</link>
-      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/gamedev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unity</title>
-      <link>https://storkstudios.github.io/tags/unity/</link>
-      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/unity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Development</title>
-      <link>https://storkstudios.github.io/tags/development/</link>
-      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GameDesign</title>
-      <link>https://storkstudios.github.io/tags/gamedesign/</link>
-      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/tags/gamedesign/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Events</title>
-      <link>https://storkstudios.github.io/tags/events/</link>
-      <pubDate>Sat, 13 Jul 2024 01:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/tags/events/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Off-Topic</title>
-      <link>https://storkstudios.github.io/tags/off-topic/</link>
-      <pubDate>Thu, 27 Jun 2024 21:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/off-topic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Team</title>
-      <link>https://storkstudios.github.io/tags/team/</link>
-      <pubDate>Thu, 27 Jun 2024 21:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/team/</guid>
+      <link>http://localhost:1313/tags/gamedev/</link>
+      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/gamedev/</guid>
       <description></description>
     </item>
     <item>
       <title>GameJam</title>
-      <link>https://storkstudios.github.io/tags/gamejam/</link>
-      <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/gamejam/</guid>
+      <link>http://localhost:1313/tags/gamejam/</link>
+      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/gamejam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Animations</title>
+      <link>http://localhost:1313/tags/animations/</link>
+      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/animations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BulletWaste</title>
+      <link>http://localhost:1313/tags/bulletwaste/</link>
+      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/bulletwaste/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>http://localhost:1313/tags/unity/</link>
+      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/tags/development/</link>
+      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GameDesign</title>
+      <link>http://localhost:1313/tags/gamedesign/</link>
+      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/gamedesign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Off-Topic</title>
+      <link>http://localhost:1313/tags/off-topic/</link>
+      <pubDate>Thu, 27 Jun 2024 21:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/off-topic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Team</title>
+      <link>http://localhost:1313/tags/team/</link>
+      <pubDate>Thu, 27 Jun 2024 21:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/team/</guid>
       <description></description>
     </item>
     <item>
       <title>My Summer Internship at Local Nuclear Reactor</title>
-      <link>https://storkstudios.github.io/tags/my-summer-internship-at-local-nuclear-reactor/</link>
+      <link>http://localhost:1313/tags/my-summer-internship-at-local-nuclear-reactor/</link>
       <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/my-summer-internship-at-local-nuclear-reactor/</guid>
+      <guid>http://localhost:1313/tags/my-summer-internship-at-local-nuclear-reactor/</guid>
       <description></description>
     </item>
     <item>
       <title>Patchnotes</title>
-      <link>https://storkstudios.github.io/tags/patchnotes/</link>
+      <link>http://localhost:1313/tags/patchnotes/</link>
       <pubDate>Tue, 28 May 2024 08:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/patchnotes/</guid>
+      <guid>http://localhost:1313/tags/patchnotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Analitics</title>
-      <link>https://storkstudios.github.io/tags/analitics/</link>
+      <link>http://localhost:1313/tags/analitics/</link>
       <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/analitics/</guid>
+      <guid>http://localhost:1313/tags/analitics/</guid>
       <description></description>
     </item>
     <item>
       <title>Telemetry</title>
-      <link>https://storkstudios.github.io/tags/telemetry/</link>
+      <link>http://localhost:1313/tags/telemetry/</link>
       <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/telemetry/</guid>
+      <guid>http://localhost:1313/tags/telemetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://storkstudios.github.io/tags/performance/</link>
+      <link>http://localhost:1313/tags/performance/</link>
       <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/performance/</guid>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
     </item>
   </channel>

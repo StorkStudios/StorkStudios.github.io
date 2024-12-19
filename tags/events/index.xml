@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/tags/events/</link>
+    <link>http://localhost:1313/tags/events/</link>
     <description>Recent content in Events on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 01:00:00 +0800</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 20:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick-fire: 3 GameJams - 6 games</title>
+      <link>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</link>
+      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</guid>
+      <description>This post is about several GameJams that we attended recently.&#xA;0h GameJam on the tram Remember My summer internship at a local nuclear reactor? So the best 3 teams at the GameJam got a free Indie Pass for the Game Industry Conference. We were tied for the 2nd place so lucky us, huh? Either way, it wasn&amp;rsquo;t the first time we were there. But this year was different. The event fell on the daylight saving time day in Poland where we enter the winter time by moving our clocks by one hour back when the clock hits 3:00am.</description>
+    </item>
     <item>
       <title>Mr. Senior Developer, what do you think?</title>
-      <link>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</link>
+      <link>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</link>
       <pubDate>Sat, 13 Jul 2024 01:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</guid>
+      <guid>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of the Bullet Waste, here to tell you about the event we&amp;rsquo;ve attended lately.&#xA;Let&amp;rsquo;s go! The event I&amp;rsquo;ll be talking about is the ZTGK, 16th edition of it to be precise, in which we participated two weeks ago. It stands for Zespołowe Tworzenie Gier Komputerowych (Collaborative Development of Computer Games). It&amp;rsquo;s a competition in Łódź that takes place once a year at the end of June.</description>
     </item>
     <item>
       <title>The XR GameJam substory</title>
-      <link>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</link>
+      <link>http://localhost:1313/blog/the_xr_gamejam_substory/</link>
       <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</guid>
+      <guid>http://localhost:1313/blog/the_xr_gamejam_substory/</guid>
       <description>Hello There In this post I want to share some stories and thoughts from the XR GameJam which we, the Stork&amp;rsquo;Studios, attended recently (30-31.05.2024).&#xA;About XR GameJam The premise of this GameJam was to make a XR/VR game. The event lasted approximately 30 hours (10:00 through 16:00 on the next day). There were multiple sites at which you could attend the jam which included:&#xA;Helsinki XR Center Game Habitat&amp;rsquo;s DevHub at Malmo Poznan University of Technology DE:HIVE at Berlin The onboarding consisted of two presentations.</description>
     </item>
     <item>
       <title>Bringing your project to the people</title>
-      <link>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</link>
+      <link>http://localhost:1313/blog/bringing_your_project_to_the_people/</link>
       <pubDate>Mon, 29 Apr 2024 12:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</guid>
+      <guid>http://localhost:1313/blog/bringing_your_project_to_the_people/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and designer of Bullet Waste project, here to tell you a word or two about our experience with presenting our game on a conference and how it impacted the way we think about creating this project.&#xA;Showtime Kolejna Konferencja, Bydgoszcz, 13th of April&#xA;Let&amp;rsquo;s start from the end, the conference itself. The day we went there, I was so glad that we made it.</description>
     </item>
   </channel>

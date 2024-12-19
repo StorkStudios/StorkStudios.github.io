@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Stork&#39;Studios</title>
-    <link>https://storkstudios.github.io/tags/development/</link>
+    <link>http://localhost:1313/tags/development/</link>
     <description>Recent content in Development on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Aug 2024 12:00:00 +0800</lastBuildDate>
-    <atom:link href="https://storkstudios.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development After Two Demos</title>
-      <link>https://storkstudios.github.io/blog/development_after_two_demos/</link>
+      <link>http://localhost:1313/blog/development_after_two_demos/</link>
       <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/blog/development_after_two_demos/</guid>
+      <guid>http://localhost:1313/blog/development_after_two_demos/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of Bullet Waste, here to tell you about the designing of our game.&#xA;Introduction We&amp;rsquo;re currently approaching the release of the third demo of Bullet Waste. It will bring many changes to the core of our gameplay, for example a big rework of combat and arena structure. It will also introduce new enemies, new environments and reimagined training sequence, so there&amp;rsquo;s surely something to look out for.</description>
     </item>
   </channel>
