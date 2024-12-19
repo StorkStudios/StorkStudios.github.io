@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Telemetry on Stork&#39;Studios</title>
-    <link>http://localhost:1313/tags/telemetry/</link>
+    <link>https://storkstudios.github.io/tags/telemetry/</link>
     <description>Recent content in Telemetry on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2024 23:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/telemetry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://storkstudios.github.io/tags/telemetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn about your own game using telemetry</title>
-      <link>http://localhost:1313/blog/learn_about_your_own_game_using_telemetry/</link>
+      <link>https://storkstudios.github.io/blog/learn_about_your_own_game_using_telemetry/</link>
       <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/learn_about_your_own_game_using_telemetry/</guid>
+      <guid>https://storkstudios.github.io/blog/learn_about_your_own_game_using_telemetry/</guid>
       <description>Knowledge is power Video games are all about having fun. As a developer, you want your players to have a good time. It doesn&amp;rsquo;t matter whether it&amp;rsquo;s a crane operator simulator or a fast-paced shooter. You need to create an experience that people will like. The problem is, as the creator you are not a player, at least not a regular one. Your opinion on your game&amp;rsquo;s features and balance is heavily biased by your experience.</description>
     </item>
   </channel>

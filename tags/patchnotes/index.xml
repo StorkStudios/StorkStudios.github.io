@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Patchnotes on Stork&#39;Studios</title>
-    <link>http://localhost:1313/tags/patchnotes/</link>
+    <link>https://storkstudios.github.io/tags/patchnotes/</link>
     <description>Recent content in Patchnotes on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 May 2024 08:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/patchnotes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://storkstudios.github.io/tags/patchnotes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demo 2.2 Patchnotes</title>
-      <link>http://localhost:1313/blog/demo_2_2_patchnotes/</link>
+      <link>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</link>
       <pubDate>Tue, 28 May 2024 08:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/demo_2_2_patchnotes/</guid>
+      <guid>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and main designer of the Bullet Waste project, here to tell you about latest patches of our demo and to tease what will come next.&#xA;About the changes The patched version of our last demo was just released and I&amp;rsquo;d like to share with you a little bit about the things we&amp;rsquo;ve changed. The patches we included are mostly based on the issues that were problematic for the players and quick to fix for us.</description>
     </item>
   </channel>

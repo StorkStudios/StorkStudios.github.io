@@ -2,73 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GameDev on Stork&#39;Studios</title>
-    <link>http://localhost:1313/tags/gamedev/</link>
+    <link>https://storkstudios.github.io/tags/gamedev/</link>
     <description>Recent content in GameDev on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Dec 2024 20:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Quick-fire: 3 GameJams - 6 games</title>
-      <link>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</link>
-      <pubDate>Mon, 02 Dec 2024 20:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/blog/quick-fire_3_gamejams_6_games/</guid>
-      <description>This post is about several GameJams that we attended recently.&#xA;0h GameJam on the tram Remember My summer internship at a local nuclear reactor? So the best 3 teams at the GameJam got a free Indie Pass for the Game Industry Conference. We were tied for the 2nd place so lucky us, huh? Either way, it wasn&amp;rsquo;t the first time we were there. But this year was different. The event fell on the daylight saving time day in Poland where we enter the winter time by moving our clocks by one hour back when the clock hits 3:00am.</description>
-    </item>
+    <lastBuildDate>Mon, 16 Sep 2024 20:00:00 +0200</lastBuildDate>
+    <atom:link href="https://storkstudios.github.io/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animation system in Bullet Waste</title>
-      <link>http://localhost:1313/blog/animation_system_in_bullet_waste/</link>
+      <link>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</link>
       <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/animation_system_in_bullet_waste/</guid>
+      <guid>https://storkstudios.github.io/blog/animation_system_in_bullet_waste/</guid>
       <description>Hi! After a little summer break we are back to technical posts. As you may have guessed from the title, today I will show you around the animation system in Bullet Waste. I will tell a bit of backstory, explain the design goals and how we managed to fulfill them.&#xA;Animations don&amp;#39;t always work as expected&#xD;Handling animations in Unity is one of these things that are easy to begin with, but tend to get harder as your project develops.</description>
     </item>
     <item>
       <title>Development After Two Demos</title>
-      <link>http://localhost:1313/blog/development_after_two_demos/</link>
+      <link>https://storkstudios.github.io/blog/development_after_two_demos/</link>
       <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/development_after_two_demos/</guid>
+      <guid>https://storkstudios.github.io/blog/development_after_two_demos/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of Bullet Waste, here to tell you about the designing of our game.&#xA;Introduction We&amp;rsquo;re currently approaching the release of the third demo of Bullet Waste. It will bring many changes to the core of our gameplay, for example a big rework of combat and arena structure. It will also introduce new enemies, new environments and reimagined training sequence, so there&amp;rsquo;s surely something to look out for.</description>
     </item>
     <item>
       <title>Mr. Senior Developer, what do you think?</title>
-      <link>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</link>
+      <link>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</link>
       <pubDate>Sat, 13 Jul 2024 01:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/mr_senior_developer_what_do_you_think/</guid>
+      <guid>https://storkstudios.github.io/blog/mr_senior_developer_what_do_you_think/</guid>
       <description>Hi, I’m Adam “Gahlammon” Dachtera, team leader and main designer of the Bullet Waste, here to tell you about the event we&amp;rsquo;ve attended lately.&#xA;Let&amp;rsquo;s go! The event I&amp;rsquo;ll be talking about is the ZTGK, 16th edition of it to be precise, in which we participated two weeks ago. It stands for Zespołowe Tworzenie Gier Komputerowych (Collaborative Development of Computer Games). It&amp;rsquo;s a competition in Łódź that takes place once a year at the end of June.</description>
     </item>
     <item>
       <title>The XR GameJam substory</title>
-      <link>http://localhost:1313/blog/the_xr_gamejam_substory/</link>
+      <link>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</link>
       <pubDate>Sat, 15 Jun 2024 13:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/blog/the_xr_gamejam_substory/</guid>
+      <guid>https://storkstudios.github.io/blog/the_xr_gamejam_substory/</guid>
       <description>Hello There In this post I want to share some stories and thoughts from the XR GameJam which we, the Stork&amp;rsquo;Studios, attended recently (30-31.05.2024).&#xA;About XR GameJam The premise of this GameJam was to make a XR/VR game. The event lasted approximately 30 hours (10:00 through 16:00 on the next day). There were multiple sites at which you could attend the jam which included:&#xA;Helsinki XR Center Game Habitat&amp;rsquo;s DevHub at Malmo Poznan University of Technology DE:HIVE at Berlin The onboarding consisted of two presentations.</description>
     </item>
     <item>
       <title>Demo 2.2 Patchnotes</title>
-      <link>http://localhost:1313/blog/demo_2_2_patchnotes/</link>
+      <link>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</link>
       <pubDate>Tue, 28 May 2024 08:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/demo_2_2_patchnotes/</guid>
+      <guid>https://storkstudios.github.io/blog/demo_2_2_patchnotes/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and main designer of the Bullet Waste project, here to tell you about latest patches of our demo and to tease what will come next.&#xA;About the changes The patched version of our last demo was just released and I&amp;rsquo;d like to share with you a little bit about the things we&amp;rsquo;ve changed. The patches we included are mostly based on the issues that were problematic for the players and quick to fix for us.</description>
     </item>
     <item>
       <title>Learn about your own game using telemetry</title>
-      <link>http://localhost:1313/blog/learn_about_your_own_game_using_telemetry/</link>
+      <link>https://storkstudios.github.io/blog/learn_about_your_own_game_using_telemetry/</link>
       <pubDate>Mon, 06 May 2024 23:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/learn_about_your_own_game_using_telemetry/</guid>
+      <guid>https://storkstudios.github.io/blog/learn_about_your_own_game_using_telemetry/</guid>
       <description>Knowledge is power Video games are all about having fun. As a developer, you want your players to have a good time. It doesn&amp;rsquo;t matter whether it&amp;rsquo;s a crane operator simulator or a fast-paced shooter. You need to create an experience that people will like. The problem is, as the creator you are not a player, at least not a regular one. Your opinion on your game&amp;rsquo;s features and balance is heavily biased by your experience.</description>
     </item>
     <item>
       <title>Bringing your project to the people</title>
-      <link>http://localhost:1313/blog/bringing_your_project_to_the_people/</link>
+      <link>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</link>
       <pubDate>Mon, 29 Apr 2024 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/blog/bringing_your_project_to_the_people/</guid>
+      <guid>https://storkstudios.github.io/blog/bringing_your_project_to_the_people/</guid>
       <description>Hi, I&amp;rsquo;m Adam &amp;ldquo;Gahlammon&amp;rdquo; Dachtera, team leader and designer of Bullet Waste project, here to tell you a word or two about our experience with presenting our game on a conference and how it impacted the way we think about creating this project.&#xA;Showtime Kolejna Konferencja, Bydgoszcz, 13th of April&#xA;Let&amp;rsquo;s start from the end, the conference itself. The day we went there, I was so glad that we made it.</description>
     </item>
     <item>
       <title>So you want to have 5k active bullets at once...</title>
-      <link>http://localhost:1313/blog/so_you_want_to_have_5k_active_bullets_at_once/</link>
+      <link>https://storkstudios.github.io/blog/so_you_want_to_have_5k_active_bullets_at_once/</link>
       <pubDate>Fri, 12 Apr 2024 20:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/blog/so_you_want_to_have_5k_active_bullets_at_once/</guid>
+      <guid>https://storkstudios.github.io/blog/so_you_want_to_have_5k_active_bullets_at_once/</guid>
       <description>Why As you may know Bullet Waste is a first-person bullet-hell game, which means spawning a lot of bullets at runtime. Furthermore, a game designer needs to be able to define complicated attacks with ease. This task was assigned to me and I think I&amp;rsquo;ve come up with a pretty interesting solution.&#xA;But how to tackle this This problem (as many others) consists of many smaller ones. But for the sake of this article lets focus on the main two:</description>
     </item>
   </channel>
