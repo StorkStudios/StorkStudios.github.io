@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacies on Stork&#39;Studios</title>
+    <link>https://storkstudios.github.io/privacy/</link>
+    <description>Recent content in Privacies on Stork&#39;Studios</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 12:00:00 +0200</lastBuildDate>
+    <atom:link href="https://storkstudios.github.io/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FIGA Legend - Privacy Policy</title>
+      <link>https://storkstudios.github.io/privacy/figa-privacy/</link>
+      <pubDate>Wed, 01 Jan 2025 12:00:00 +0200</pubDate>
+      <guid>https://storkstudios.github.io/privacy/figa-privacy/</guid>
+      <description>Privacy Policy&#xA;This privacy policy is applicable to the FIGA Legend app (hereinafter referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices, which was developed by Stork&amp;rsquo;Studios (hereinafter referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Free service. This service is provided &amp;ldquo;AS IS&amp;rdquo;.&#xA;What information does the Application obtain and how is it used?&#xA;User Provided Information&#xA;The Application acquires the information you supply when you download and register the Application. Registration with the Service Provider is not mandatory.</description>
+    </item>
+  </channel>
+</rss>
