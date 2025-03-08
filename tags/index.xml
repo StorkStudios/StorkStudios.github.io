@@ -6,20 +6,41 @@
     <description>Recent content in Tags on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Dec 2024 20:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 12:00:00 +0100</lastBuildDate>
     <atom:link href="https://storkstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Events</title>
-      <link>https://storkstudios.github.io/tags/events/</link>
-      <pubDate>Thu, 19 Dec 2024 20:00:00 +0100</pubDate>
-      <guid>https://storkstudios.github.io/tags/events/</guid>
+      <title>BulletWaste</title>
+      <link>https://storkstudios.github.io/tags/bulletwaste/</link>
+      <pubDate>Sat, 08 Mar 2025 12:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/tags/bulletwaste/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://storkstudios.github.io/tags/development/</link>
+      <pubDate>Sat, 08 Mar 2025 12:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GameDesign</title>
+      <link>https://storkstudios.github.io/tags/gamedesign/</link>
+      <pubDate>Sat, 08 Mar 2025 12:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/tags/gamedesign/</guid>
       <description></description>
     </item>
     <item>
       <title>GameDev</title>
       <link>https://storkstudios.github.io/tags/gamedev/</link>
-      <pubDate>Thu, 19 Dec 2024 20:00:00 +0100</pubDate>
+      <pubDate>Sat, 08 Mar 2025 12:00:00 +0100</pubDate>
       <guid>https://storkstudios.github.io/tags/gamedev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Events</title>
+      <link>https://storkstudios.github.io/tags/events/</link>
+      <pubDate>Thu, 19 Dec 2024 20:00:00 +0100</pubDate>
+      <guid>https://storkstudios.github.io/tags/events/</guid>
       <description></description>
     </item>
     <item>
@@ -37,31 +58,10 @@
       <description></description>
     </item>
     <item>
-      <title>BulletWaste</title>
-      <link>https://storkstudios.github.io/tags/bulletwaste/</link>
-      <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
-      <guid>https://storkstudios.github.io/tags/bulletwaste/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Unity</title>
       <link>https://storkstudios.github.io/tags/unity/</link>
       <pubDate>Mon, 16 Sep 2024 20:00:00 +0200</pubDate>
       <guid>https://storkstudios.github.io/tags/unity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Development</title>
-      <link>https://storkstudios.github.io/tags/development/</link>
-      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GameDesign</title>
-      <link>https://storkstudios.github.io/tags/gamedesign/</link>
-      <pubDate>Fri, 16 Aug 2024 12:00:00 +0800</pubDate>
-      <guid>https://storkstudios.github.io/tags/gamedesign/</guid>
       <description></description>
     </item>
     <item>
