@@ -120,5 +120,26 @@
       <guid>https://storkstudios.github.io/gallery/mediator/</guid>
       <description>Open world RPG created in 48h, focused on our favourite quests in that kind of games: gathering number of random items for NPCs.</description>
     </item>
+    <item>
+      <title>Kappa Square</title>
+      <link>https://storkstudios.github.io/gallery/kappa-square/</link>
+      <pubDate>Mon, 05 Feb 2024 22:23:09 +0200</pubDate>
+      <guid>https://storkstudios.github.io/gallery/kappa-square/</guid>
+      <description>Singleplayer space shooter with full 3d mobility where you need to eliminate hostile soldiers, gather amunition and complete objectives to win.</description>
+    </item>
+    <item>
+      <title>Stork&#39;man</title>
+      <link>https://storkstudios.github.io/gallery/storkman/</link>
+      <pubDate>Thu, 01 Feb 2024 22:23:09 +0200</pubDate>
+      <guid>https://storkstudios.github.io/gallery/storkman/</guid>
+      <description>2d platformer game made using self-written game engine. It that was our first game created together.</description>
+    </item>
+    <item>
+      <title>Game Jam Projects</title>
+      <link>https://storkstudios.github.io/gallery/game-jam-projects/</link>
+      <pubDate>Mon, 22 Jan 2024 22:23:09 +0200</pubDate>
+      <guid>https://storkstudios.github.io/gallery/game-jam-projects/</guid>
+      <description>Various games created by our team during game jams. Their quality is highly irregular as we were experimenting with some new approaches each time we were going on a game jam.</description>
+    </item>
   </channel>
 </rss>
