@@ -1,0 +1,64 @@
+id;tag;Image;Name;First game;Universe;Species;Gender;Role (s);Appearance;games
+Stork'man;Stork’man;portraits/Storkman.png;Stork'man;Stork'man;Stork’verse;Human;Male;Player;2D;Stork’man
+General JB;Stork’man;portraits/GeneralJB.png;General JB;Stork'man;Stork’verse;Human;Male;Neutral;2D;Stork’man
+Stefan Patelnia;Stork’man;portraits/StefanPatelnia.png;Stefan Patelnia;Stork'man;Stork’verse;Human;Male;Task Giver;2D;Stork’man
+Marine;Kappa Square;portraits/Marine.png;unknown;Kappa Square;Kappaverse;Human;Male;Player;FPP;Kappa Square
+Aaron Jones;Kappa Square;portraits/AaronJones.png;Aaron Jones;Kappa Square;Kappaverse;Human;Male;Task Giver;On Comms;Kappa Square
+Firefighter;Firefighter;portraits/Nieznane.png;unknown;Firefighter;Turnipverse;Human;unknown;Player;FPP;Firefighter
+The Protagonist;Bullet Waste;portraits/Protagonista.png;unknown;Bullet Waste;Kappaverse;Human, Mutant;Male;Player;FPP;Bullet Waste
+Count Gahlammon;Multiple Games;portraits/HrabiaGahlammon.png;Count Gahlammon;Racines;Turnipverse;Vampire, Spectre;Male;Player, Neutral, Enemy;Not visible, 2D, 3D, Live action;Racines|The Awakening of Count Gahlammon|Mediator: Powrót do Korzeni|My Summer Internship At Local Nuclear Reactor|It’s All Lies 3
+Wamp Solo;Racines;portraits/WampSolo.png;Wamp Solo;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
+Count Namuras;Racines;portraits/HrabiaNamuras.png;Count Namuras;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
+Draakul;Racines;portraits/Draakul.png;Draakul;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
+Pope;Racines;portraits/Papiez.png;Pope;Racines;Turnipverse;Human, Magically Altered;Male;Enemy;3D;Racines
+Mediator;Mediator: Powrót do Korzeni;portraits/Mediator.png;unknown;Mediator: Powrót do Korzeni;Turnipverse;Human;Male;Player;3D;Mediator: Powrót do Korzeni
+Lord Pojemnik;Mediator: Powrót do Korzeni;portraits/LordPojemnik.png;Lord Pojemnik;Mediator: Powrót do Korzeni;Turnipverse;Human;Male;Task Giver;3D;Mediator: Powrót do Korzeni
+General Lora;Mediator: Powrót do Korzeni;portraits/GeneralLora.png;General Lora;Mediator: Powrót do Korzeni;Turnipverse;Human;Female;Task Giver;3D;Mediator: Powrót do Korzeni
+Złowiek;Mediator: Powrót do Korzeni;portraits/Zlowiek.png;Złowiek;Mediator: Powrót do Korzeni;Turnipverse;Human;Male;Task Giver;3D;Mediator: Powrót do Korzeni
+Szczepan;Mediator: Powrót do Korzeni;portraits/Szczepan.png;unknown;Mediator: Powrót do Korzeni;Turnipverse;Human;Male;Task Giver;3D;Mediator: Powrót do Korzeni
+Sapper;Sapper’s Nightmare;portraits/Nieznane.png;unknown;Sapper’s Nightmare;unknown;unknown;unknown;Player;Not visible;Sapper’s Nightmare
+The Host;Don’t Wallover;portraits/Nieznane.png;unknown;Don't Wallover;Turnipverse;Human;Male;Neutral;On Comms;Don’t Wallover
+Mr. Mireczek;Don’t Wallover;portraits/PanMireczek.png;Mr. Mireczek;Don't Wallover;Turnipverse;Human;Male;Controllable;3D;Don’t Wallover
+Mr. Bogdan;Don’t Wallover;portraits/PanBogdan.png;Mr. Bogdan;Don't Wallover;Turnipverse;Human;Male;Controllable;3D;Don’t Wallover
+Mr. Zbigniew;Don’t Wallover;portraits/PanZbigniew.png;Mr. Zbigniew;Don't Wallover;Turnipverse;Human;Male;Controllable;3D;Don’t Wallover
+Ms. Ryszarda;Don’t Wallover;portraits/PaniRyszarda.png;Ms. Ryszarda;Don't Wallover;Turnipverse;Human;Female;Controllable;3D;Don’t Wallover
+Sebastian Malina;Multiple Games;portraits/SebastianMalina.png;Sebastian Malina;Don't Wallover;Turnipverse;Fruitman, Human;Male;Neutral, Controllable;2D, Live action;Don’t Wallover|FIGA Legend
+Bakali;FIGA Legend;portraits/Bakali.png;Bakali;FIGA Legend;Turnipverse;Fruitman;Female;Controllable;2D;FIGA Legend
+Cherryvana;FIGA Legend;portraits/Cherryvana.png;Cherryvana;FIGA Legend;Turnipverse;Fruitman;Female;Controllable;2D;FIGA Legend
+Fiego;FIGA Legend;portraits/Fiego.png;Fiego;FIGA Legend;Turnipverse;Fruitman;Male;Controllable;2D;FIGA Legend
+Grapes;FIGA Legend;portraits/Grapes.png;Grapes;FIGA Legend;Turnipverse;Fruitman;Male;Controllable;2D;FIGA Legend
+Melona;FIGA Legend;portraits/Melona.png;Melona;FIGA Legend;Turnipverse;Fruitman;Female;Controllable;2D;FIGA Legend
+Naakiwi;FIGA Legend;portraits/Naakiwi.png;Naakiwi;FIGA Legend;Turnipverse;Fruitman;Female;Controllable;2D;FIGA Legend
+Pinaplank;FIGA Legend;portraits/Pinaplank.png;Pinaplank;FIGA Legend;Turnipverse;Fruitman;Male;Controllable;2D;FIGA Legend
+Plummumu;FIGA Legend;portraits/Plummumu.png;Plummumu;FIGA Legend;Turnipverse;Fruitman;Male;Controllable;2D;FIGA Legend
+Tahm Gerine;FIGA Legend;portraits/TahmGerine.png;Tahm Gerine;FIGA Legend;Turnipverse;Fruitman;Male;Controllable;2D;FIGA Legend
+Intern;My Summer Internship;portraits/Nieznane.png;unknown;My Summer Internship;Turnipverse;unknown;unknown;Player;FPP;My Summer Internship At Local Nuclear Reactor
+Coworker;My Summer Internship;portraits/Nieznane.png;unknown;My Summer Internship;Turnipverse;unknown;Male;Neutral;On Comms;My Summer Internship At Local Nuclear Reactor
+Previous employee;My Summer Internship;portraits/Nieznane.png;unknown;My Summer Internship;Turnipverse;unknown;Male;Neutral;Mentioned;My Summer Internship At Local Nuclear Reactor
+Blind Sisyphus;My Summer Internship;portraits/BlindSisyphus.png;Blind Sisyphus;My Summer Internship;Turnipverse;unknown;Male;Neutral;Mentioned;My Summer Internship At Local Nuclear Reactor
+Rigcz;It’s All Lies Series;portraits/Rigcz.png;Rigcz;It’s All Lies;Turnipverse;Human;unknown;Player;2D;It’s All Lies 1|It’s All Lies 2|It’s All Lies 3
+System;It’s All Lies 2;portraits/Nieznane.png;System;It’s All Lies 2;Turnipverse;Program;Binary;Neutral;Mentioned;It’s All Lies 2
+Deathy;Death Bell;portraits/Deathy.png;Deathy;Death Bell;Death Bell;Death;Female;Player;FPP;Death Bell
+Deathy’s Husband;Death Bell;portraits/Nieznane.png;unknown;Death Bell;Death Bell;unknown;Male;Neutral;On Comms;Death Bell
+Tenteki;Bubble World;portraits/Nieznane.png;Tenteki;Bubble World;Kappaverse;Android;Male;Player;Not visible;Bubble World
+Bertha;Bubble World;portraits/Bertha.png;Bertha;Bubble World;Kappaverse;Human;Female;Neutral;2D;Bubble World
+Bertha’s Father;Bubble World;portraits/BerthasFather.png;unknown;Bubble World;Kappaverse;Human;Male;Neutral;2D;Bubble World
+Yukari;Bubble World;portraits/Yukari.png;Yukari;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
+Shiori;Bubble World;portraits/Shiori.png;Shiori;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
+Daria;Bubble World;portraits/Daria.png;Daria;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
+Carchangel;Carchangel’s Quest!;portraits/Carchangel.png;Carchangel;Carchangel’s Quest!;Turnipverse;Human;Female;Player;2D;Carchangel’s Quest!
+Car;Carchangel’s Quest!;portraits/Car.png;unknown;Carchangel’s Quest!;Turnipverse;Car, Program;Male;Controllable;2D;Carchangel’s Quest!
+Cloned Man;The Cloning Paradox;portraits/ClonedMan.png;unknown;The Cloning Paradox;Kappaverse;Human;Male;Player, Enemy;2D;The Cloning Paradox
+The Clone;Klonoskopia;portraits/TheClone.png;unknown;Klonoskopia;unknown;Human;Male;Player;2D;Klonoskopia
+The Original;Klonoskopia;portraits/TheOriginal.png;unknown;Klonoskopia;unknown;Human;Male;Player;2D;Klonoskopia
+Selim;One Game;portraits/Selim.png;Selim;One Game;unknown;Human;Male;Player;2D;One Game
+Damla;One Game;portraits/Damla.png;Damla;One Game;unknown;Human;Female;Neutral;2D;One Game
+Cennet;One Game;portraits/Cennet.png;Cennet;One Game;unknown;Human;Female;Neutral;Not visible;One Game
+Ercan;One Game;portraits/Ercan.png;Ercan;One Game;unknown;Human;Male;Neutral;2D;One Game
+Karl;Welder Skelter;portraits/Karl.png;Karl;Welder Skelter;Kappaverse;Human, Mutant;Male;Player;2D;Welder Skelter
+Mike;Welder Skelter;portraits/Mike.png;Mike;Welder Skelter;Kappaverse;Mutant;Male;Controllable;2D;Welder Skelter
+Colonel Heavy Boy;Welder Skelter;portraits/Gruby.png;Colonel Heavy Boy;Welder Skelter;Kappaverse;Human, Mutant;Male;Neutral;On Comms;Welder Skelter
+Ziomek’s Pal;Most Wanted;portraits/ZiomeksPal.png;unknown;Most Wanted;unknown;Human;Male;Player;FPP;Most Wanted
+Ziomek;Most Wanted;portraits/Ziomek.png;unknown;Most Wanted;unknown;Human;Male;Neutral;3D;Most Wanted
+General;Most Wanted;portraits/General.png;unknown;Most Wanted;unknown;Human;Male;Neutral;3D;Most Wanted
+Signal Soldier;Lost Signal: Network Warfare;portraits/Nieznane.png;unknown;Lost Signal: Network Warfare;Kappaverse;Human;unknown;Player;FPP;Lost Signal: Network Warfare
