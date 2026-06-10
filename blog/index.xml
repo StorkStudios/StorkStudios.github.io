@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 19:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 18:00:00 +0200</lastBuildDate>
     <atom:link href="https://storkstudios.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Most Wanted</title>
+      <link>https://storkstudios.github.io/blog/most_wanted/</link>
+      <pubDate>Thu, 04 Jun 2026 18:00:00 +0200</pubDate>
+      <guid>https://storkstudios.github.io/blog/most_wanted/</guid>
+      <description>Introduction Hi there!&#xA;It&amp;rsquo;s Daniel &amp;ldquo;Danwiepier&amp;rdquo; Wiechetek from Stork&amp;rsquo;Studios here. I am one of the artists responsible for 2D assets in Stork&amp;rsquo;Studios&amp;rsquo; games. In my first post, I would like to write about a game jam project inspired by one of Poland&amp;rsquo;s niche internet memes about an unnecessary destruction of a bridge. The whole game is in Polish and available to play on itch.io.&#xA;What is the meme about The meme refers to a story about a guy who, against orders, wanted to bomb a bridge even though he had been instructed to capture it from terrorists.</description>
+    </item>
     <item>
       <title>Ludum Dare 59</title>
       <link>https://storkstudios.github.io/blog/ludum_dare_59/</link>
