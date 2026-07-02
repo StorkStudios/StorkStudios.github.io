@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LudumDare on Stork&#39;Studios</title>
-    <link>http://localhost:1313/tags/ludumdare/</link>
+    <link>https://storkstudios.github.io/tags/ludumdare/</link>
     <description>Recent content in LudumDare on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 May 2026 19:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ludumdare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://storkstudios.github.io/tags/ludumdare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ludum Dare 59</title>
-      <link>http://localhost:1313/blog/ludum_dare_59/</link>
+      <link>https://storkstudios.github.io/blog/ludum_dare_59/</link>
       <pubDate>Thu, 14 May 2026 19:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/ludum_dare_59/</guid>
+      <guid>https://storkstudios.github.io/blog/ludum_dare_59/</guid>
       <description>Hello! Paweł here! I stand behind some of the art and graphics of Bullet Waste. This is my first post on Stork&amp;rsquo;Studios blog, but it will not be about our main game.&#xA;…that does not mean that you shouldn’t play Bullet Waste of course…&#xA;My perspective on jams Last April we participated in the Ludum Dare game jam. While participating in jams is not something new for Stork&amp;rsquo;Studios, it is a somewhat unique experience for me.</description>
     </item>
   </channel>

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Stork&#39;Studios</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>https://storkstudios.github.io/authors/</link>
     <description>Recent content in Authors on Stork&#39;Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jul 2026 11:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://storkstudios.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Szymon Kaczmarek</title>
-      <link>http://localhost:1313/authors/szymon-kaczmarek/</link>
+      <link>https://storkstudios.github.io/authors/szymon-kaczmarek/</link>
       <pubDate>Wed, 01 Jul 2026 11:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/authors/szymon-kaczmarek/</guid>
+      <guid>https://storkstudios.github.io/authors/szymon-kaczmarek/</guid>
       <description></description>
     </item>
     <item>
       <title>Adam &#34;Gahlammon&#34; Dachtera</title>
-      <link>http://localhost:1313/authors/adam-gahlammon-dachtera/</link>
+      <link>https://storkstudios.github.io/authors/adam-gahlammon-dachtera/</link>
       <pubDate>Wed, 24 Jun 2026 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/authors/adam-gahlammon-dachtera/</guid>
+      <guid>https://storkstudios.github.io/authors/adam-gahlammon-dachtera/</guid>
       <description></description>
     </item>
     <item>
       <title>Andrzej &#34;Pojemnik&#34; Gauza</title>
-      <link>http://localhost:1313/authors/andrzej-pojemnik-gauza/</link>
+      <link>https://storkstudios.github.io/authors/andrzej-pojemnik-gauza/</link>
       <pubDate>Fri, 12 Jun 2026 19:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/authors/andrzej-pojemnik-gauza/</guid>
+      <guid>https://storkstudios.github.io/authors/andrzej-pojemnik-gauza/</guid>
       <description></description>
     </item>
     <item>
       <title>Daniel Wiechetek</title>
-      <link>http://localhost:1313/authors/daniel-wiechetek/</link>
+      <link>https://storkstudios.github.io/authors/daniel-wiechetek/</link>
       <pubDate>Thu, 04 Jun 2026 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/authors/daniel-wiechetek/</guid>
+      <guid>https://storkstudios.github.io/authors/daniel-wiechetek/</guid>
       <description></description>
     </item>
     <item>
       <title>Paweł Waligóra</title>
-      <link>http://localhost:1313/authors/pawe%C5%82-walig%C3%B3ra/</link>
+      <link>https://storkstudios.github.io/authors/pawe%C5%82-walig%C3%B3ra/</link>
       <pubDate>Thu, 14 May 2026 19:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/authors/pawe%C5%82-walig%C3%B3ra/</guid>
+      <guid>https://storkstudios.github.io/authors/pawe%C5%82-walig%C3%B3ra/</guid>
       <description></description>
     </item>
     <item>
       <title>Stork&#39;Studios</title>
-      <link>http://localhost:1313/authors/storkstudios/</link>
+      <link>https://storkstudios.github.io/authors/storkstudios/</link>
       <pubDate>Wed, 01 Jan 2025 12:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/authors/storkstudios/</guid>
+      <guid>https://storkstudios.github.io/authors/storkstudios/</guid>
       <description></description>
     </item>
   </channel>
