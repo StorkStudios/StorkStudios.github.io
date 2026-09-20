@@ -6,7 +6,7 @@ Marine;Kappa Square;portraits/Marine.png;unknown;Kappa Square;Kappaverse;Human;M
 Aaron Jones;Kappa Square;portraits/AaronJones.png;Aaron Jones;Kappa Square;Kappaverse;Human;Male;Task Giver;On Comms;Kappa Square
 Firefighter;Firefighter;portraits/Nieznane.png;unknown;Firefighter;Turnipverse;Human;unknown;Player;FPP;Firefighter
 The Protagonist;Bullet Waste;portraits/Protagonista.png;unknown;Bullet Waste;Kappaverse;Human, Mutant;Male;Player;FPP;Bullet Waste
-Count Gahlammon;Multiple Games;portraits/HrabiaGahlammon.png;Count Gahlammon;Racines;Turnipverse;Vampire, Spectre;Male;Player, Neutral, Enemy;Not visible, 2D, 3D, Live action;Racines|The Awakening of Count Gahlammon|Mediator: Powrót do Korzeni|My Summer Internship At Local Nuclear Reactor|It’s All Lies 3
+Count Gahlammon;Multiple Games;portraits/HrabiaGahlammon.png;Count Gahlammon;Racines;Turnipverse;Vampire, Spectre;Male;Player, Neutral, Enemy;3D, 2D, Live action, Not visible;Racines|The Awakening of Count Gahlammon|Mediator: Powrót do Korzeni|My Summer Internship At Local Nuclear Reactor|It’s All Lies 3
 Wamp Solo;Racines;portraits/WampSolo.png;Wamp Solo;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
 Count Namuras;Racines;portraits/HrabiaNamuras.png;Count Namuras;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
 Draakul;Racines;portraits/Draakul.png;Draakul;Racines;Turnipverse;Vampire;Male;Controllable;3D;Racines
@@ -43,7 +43,7 @@ Deathy’s Husband;Death Bell;portraits/Nieznane.png;unknown;Death Bell;Death Be
 Tenteki;Bubble World;portraits/Nieznane.png;Tenteki;Bubble World;Kappaverse;Android;Male;Player;Not visible;Bubble World
 Bertha;Bubble World;portraits/Bertha.png;Bertha;Bubble World;Kappaverse;Human;Female;Neutral;2D;Bubble World
 Bertha’s Father;Bubble World;portraits/BerthasFather.png;unknown;Bubble World;Kappaverse;Human;Male;Neutral;2D;Bubble World
-Yukari;Bubble World;portraits/Yukari.png;Yukari;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
+Yukari;Multiple Games;portraits/Yukari.png;Yukari;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World|Woman Ham Asylum
 Shiori;Bubble World;portraits/Shiori.png;Shiori;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
 Daria;Bubble World;portraits/Daria.png;Daria;Bubble World;Kappaverse;Android;Female;Neutral;2D;Bubble World
 Carchangel;Carchangel’s Quest!;portraits/Carchangel.png;Carchangel;Carchangel’s Quest!;Turnipverse;Human;Female;Player;2D;Carchangel’s Quest!
@@ -61,4 +61,6 @@ Colonel Heavy Boy;Welder Skelter;portraits/Gruby.png;Colonel Heavy Boy;Welder Sk
 Ziomek’s Pal;Most Wanted;portraits/ZiomeksPal.png;unknown;Most Wanted;unknown;Human;Male;Player;FPP;Most Wanted
 Ziomek;Most Wanted;portraits/Ziomek.png;unknown;Most Wanted;unknown;Human;Male;Neutral;3D;Most Wanted
 General;Most Wanted;portraits/General.png;unknown;Most Wanted;unknown;Human;Male;Neutral;3D;Most Wanted
-Signal Soldier;Lost Signal: Network Warfare;portraits/Nieznane.png;unknown;Lost Signal: Network Warfare;Kappaverse;Human;unknown;Player;FPP;Lost Signal: Network Warfare
+StEVEN;Multiple Games;portraits/StEVEN.png;StEVEN;Lost Signal: Network Warfare;Kappaverse;Android;Male;Player, Neutral;FPP;Lost Signal: Network Warfare|Woman Ham Asylum
+Ulla;Woman Ham Asylum;portraits/Ulla.png;Ulla;Woman Ham Asylum;Kappaverse;Human;Female;Player;FPP;Woman Ham Asylum
+Giovanni;Woman Ham Asylum;portraits/Nieznane.png;Giovanni;Woman Ham Asylum;Kappaverse;Human;Male;Neutral;Mentioned;Woman Ham Asylum
